@@ -47,6 +47,6 @@ Formative and Summative Assessments included.
 
 ---
 Project - After seeing some of the effects of the recent pandemic, it was observed that phishing seemed to have a different structure than normal. This was explored in whether "disasters phishing" could be a distinct form of the attack, with research into the fields and attempts to devise a policy document that could be used in conjunction with those already in place.
-File Included.
+Not included at this time.
 
 ---
