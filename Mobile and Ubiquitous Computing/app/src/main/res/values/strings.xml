@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="text_main">Hello and Welcome to Cooking Durio</string>
+    <string name="reci_main">Recipes:</string>
+    <string name="button_main">See Recipe</string>
+
+    <string name="Detail_food_name"> Food Name </string>
+    <string name="Detail_desc_name"> Description: </string>
+    <string name="Detail_desc"> Description of Food </string>
+    <string name="Detail_ingr_name"> Ingredients: </string>
+    <string name="Detail_ingr"> Ingredients used in Food </string>
+    <string name="Detail_steps_name"> Steps: </string>
+    <string name="Detail_steps">Steps in recipe</string>
+    <string name="Detail_Fav_Button">Favourite</string>
+
+    <string name="title_activity_food_detail">FoodDetailActivity</string>
+
+    <string name="Hom">Home</string>
+    <string name="Pre">Preferences</string>
+    <string name="Fav">Favourites</string>
+    <string name="Abo">About</string>
+
+    <string name="Mea">Meal Time:</string>
+    <string name="Non">None</string>
+    <string name="Bre">Breakfast</string>
+    <string name="Lun">Lunch</string>
+    <string name="Din">Dinner</string>
+
+    <string name="Ord">Prep Time:</string>
+    <string name="Asc">Ascending</string>
+    <string name="Des">Descending</string>
+
+    <string name="Set">Set Preferences</string>
+
+    <string name="About_desc">Name: Cooking Durio\nDeveloper: Scarlett Studios\nVersion: 1.0.0\n\nThankyou for using my app, I hope you enjoy making some lovely meals!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

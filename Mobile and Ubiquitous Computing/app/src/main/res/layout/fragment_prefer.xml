@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".PreferFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Pref_pre"
+            android:layout_width="225dp"
+            android:layout_height="41dp"
+            android:text="@string/Pre"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="138dp"
+            android:layout_height="142dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Pref_meal"
+            app:layout_constraintVertical_bias="0.028">
+
+            <RadioButton
+                android:id="@+id/Pref_non"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Non" />
+
+            <RadioButton
+                android:id="@+id/Pref_bre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Bre" />
+
+            <RadioButton
+                android:id="@+id/Pref_lun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Lun" />
+
+            <RadioButton
+                android:id="@+id/Pref_din"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Din" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Pref_meal"
+            android:layout_width="109dp"
+            android:layout_height="28dp"
+            android:text="@string/Mea"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Pref_pre"
+            app:layout_constraintVertical_bias="0.029" />
+
+        <TextView
+            android:id="@+id/Pref_ord"
+            android:layout_width="106dp"
+            android:layout_height="27dp"
+            android:text="@string/Ord"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="135dp"
+            android:layout_height="112dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Pref_ord"
+            app:layout_constraintVertical_bias="0.04">
+
+            <RadioButton
+                android:id="@+id/Pref_non2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Non" />
+
+            <RadioButton
+                android:id="@+id/Pref_asc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Asc" />
+
+            <RadioButton
+                android:id="@+id/Pref_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="PrefButtPress"
+                android:text="@string/Des" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

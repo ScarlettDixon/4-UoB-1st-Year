@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/Main_Welcome"
+                android:layout_width="261dp"
+                android:layout_height="27dp"
+                android:text="@string/text_main"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.071" />
+
+            <TextView
+            android:id="@+id/Main_FI"
+            android:layout_width="191dp"
+            android:layout_height="31dp"
+            android:text="@string/reci_main"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Main_Welcome"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Main_FoodItems"
+            android:layout_width="240dp"
+            android:layout_height="367dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Main_FI"
+            app:layout_constraintVertical_bias="0.0" />
+
+            <FrameLayout
+                android:id="@+id/frag_frame"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_anchor="@+id/ConstraintLayout"
+                app:layout_anchorGravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        app:itemBackground="?attr/actionModeBackground"
+        app:layout_anchor="@+id/ConstraintLayout"
+        app:layout_anchorGravity="bottom|center"
+        app:menu="@menu/bottom_menu" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
