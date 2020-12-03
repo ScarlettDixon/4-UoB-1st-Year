@@ -1,0 +1,5249 @@
+bFLT
+;\0
+gfff
+B`%I
+VUUU
+\\H0K
+ah80
+MO_P
+<gfff
+*VUUU
+?3333
+Qgfff
+Hpgfff
+VUUU
+Hpgfff
+@VUUU
+HpVUUU
+Pp@-
+:0`
+Hpgfff
+HpgffftI
+Hpgfff
+99-99-99
+Hpgfff
+Qgfff
+VUUU
+HpVUUU
+Hpgfff
+HpVUUU
+Htp&
+HpVUUU
+HpVUUU
+VUUU
+HplI
+VUUU
+gfff
+Hpjl
+Htp&
+Hpll
+HpVUUU
+HpVUUU
+HpVUUU
+QZ^&
+QZ^&
+VUUU
+VUUU
+gfff
+VUUU
+00@-
+x4D0
+yPP0
+|XD0
+J0PK
+J0 K
+J0PK
+gfff
+gfff
+:(@K
+gfff9
+BNEG
+*1gfff
+gfff
+xp@-
+gfff
+@ #!
+@ #!
+@ c!
+@ c!
+nB0
+%s: can not parse url %s, exit !!!
+send_rks_alarm
+rks_alarm: can not get server %s ip
+rks_alarm: can not create socket
+rks_alarm: can not connect server
+rks_alarm: can not bind socket to file stream
+GET %s?username=%s&userpwd=%s&rea=%d&io=0 HTTP/1.0
+Host: %s
+User-Agent: myclient/1.0 me@null.net
+rks_alarm: can not get echo
+HTTP/%d.%d %d 
+rks_alarm: can not get correct echo
+rks_alarm: can not find content
+rks_alarm: send alarm ok
+rks_alarm: send alarm error: %s
+update_rks_ddns
+rks_ddns.c: can not get server %s ip
+rks_ddns.c: can not create socket
+rks_ddns.c: can not connect server
+rks_ddns.c: can not bind socket to file stream
+GET %s?username=%s&userpwd=%s&vertype=902&language=&dtype=0&tcpport=%d&lanip=%s&cmdport=0&rtspport=0&dataport=0 HTTP/1.0
+Host: %s
+User-Agent: myclient/1.0 me@null.net
+rks_ddns.c: can not get echo
+rks_ddns.c: can not get correct echo
+rks_ddns.c: can not find content
+Update-OK
+rks_ddns.c: update rks ddns ok
+ERRIDS_SERVER_NOAUTH
+ERRIDS_SERVER_NOID
+ERRIDS_SERVER_OVER
+ERRIDS_ERR_IDDISABLE
+ERRIDS_ERR_PARAM
+rks_ddns.c: update rks ddns error: %s
+create msn thread error!
+%s: qng timeout
+%s: send png error
+msn_thread_function
+%s: vsnprintf failed
+msn_write_line
+0123456789abcdef
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-MMS-IM-Format: FN=SimSun; EF=; CO=0; CS=86; PF=0
+<ml>
+<d n="%s"><c n="%s" l="2" t="1" /></d>
+</ml>
+%s: recv ns message error
+MSG 
+%s: recv ns MSG message error
+CHL 
+%s: recv ns CHL message error
+ILTXC!4IXB5FB*PX
+%s%s
+PROD0119GSJUC$18
+QRY 9 %s 32
+ADL 
+%s: recv ns ADL message error
+handle_ns_message
+ADL %d %d
+RNG 
+%s: recv ns RNG message error
+%s: can not resolve ip of %s
+socket_connect
+%s: can not create socket
+%s: can not connect to %s:%d
+ANS 1 %s %s %s
+XFR 
+%s: can not allocate memory
+%s: recv ns XFR message error
+%s: failed to connect sb
+USR 1 %s %s
+QNG 
+%s: recv sb message error
+%s: recv sb MSG message error
+handle_sb_message
+url?
+Sorry, can not check my internet ip !
+http://%s
+http://%s:%d
+Sorry, an internal error happened !
+MSG %d N %d
+%s%s
+%s: ns_connect failed
+msn_login
+VER 4 MSNP15 CVR0
+%s: can not get echo of VER
+CVR 5 0x0804 winnt 6.1 i386 MSNMSGR 8.5.1288 MSMSGS %s
+%s: can not get echo of CVR
+USR 6 SSO I %s
+GCF 0 
+%s: can not get echo of USR
+%s: can not get GCF data %d
+USR 6 SSO S 
+%s: can not parse USR echo
+%s: can not malloc memory
+%s: error nonce length
+USR 7 SSO S %s
+USR 7 OK
+ADL 8 %d
+%s: can not get echo of ADL
+CHG 9 NLN 0
+%s: can not get echo of CHG
+%s: ok
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://schemas.xmlsoap.org/ws/2003/06/secext" xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wssc="http://schemas.xmlsoap.org/ws/2004/04/sc" xmlns:wst="http://schemas.xmlsoap.org/ws/2004/04/trust"><Header>
+<ps:AuthInfo xmlns:ps="http://schemas.microsoft.com/Passport/SoapServices/PPCRL" Id="PPAuthInfo">
+<ps:HostingApp>{7108E71A-9926-4FCB-BCC9-9A9D3F32E423}</ps:HostingApp>
+<ps:BinaryVersion>4</ps:BinaryVersion>
+<ps:UIVersion>1</ps:UIVersion>
+<ps:Cookies></ps:Cookies>
+<ps:RequestParams>AQAAAAIAAABsYwQAAAAxMDMz</ps:RequestParams>
+</ps:AuthInfo>
+<wsse:Security><wsse:UsernameToken Id="user">
+<wsse:Username>%s</wsse:Username>
+<wsse:Password>%s</wsse:Password>
+</wsse:UsernameToken></wsse:Security></Header><Body>
+<ps:RequestMultipleSecurityTokens xmlns:ps="http://schemas.microsoft.com/Passport/SoapServices/PPCRL" Id="RSTS">
+<wst:RequestSecurityToken Id="RST0">
+<wst:RequestType>http://schemas.xmlsoap.org/ws/2004/04/security/trust/Issue</wst:RequestType>
+<wsp:AppliesTo><wsa:EndpointReference><wsa:Address>http://Passport.NET/tb
+</wsa:Address></wsa:EndpointReference></wsp:AppliesTo></wst:RequestSecurityToken>
+<wst:RequestSecurityToken Id="RST1">
+<wst:RequestType>http://schemas.xmlsoap.org/ws/2004/04/security/trust/Issue</wst:RequestType><wsp:AppliesTo><wsa:EndpointReference>
+<wsa:Address>messengerclear.live.com</wsa:Address></wsa:EndpointReference></wsp:AppliesTo>
+<wsse:PolicyReference URI="%s"></wsse:PolicyReference></wst:RequestSecurityToken>
+<wst:RequestSecurityToken Id="RST2">
+<wsp:AppliesTo>
+<wsa:EndpointReference>
+<wsa:Address>contacts.msn.com</wsa:Address>
+</wsa:EndpointReference>
+</wsp:AppliesTo>
+<wsse:PolicyReference URI="MBI">
+</wsse:PolicyReference>
+</wst:RequestSecurityToken>
+</ps:RequestMultipleSecurityTokens></Body></Envelope>
+%s: can not init ssl
+tk_connect
+login.live.com
+%s: SSL not working
+%s: SSL connect failed
+%s: tk_connect failed
+POST %s HTTP/1.1
+/RST.srf
+Host: %s
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: %d
+Connection: Close
+HTTP/1.1 200 OK
+%s: can not get echo of POST /RST.srf
+Content-Length: 
+%s: can not get content of POST /RST.srf
+tk_http_post
+<wsse:BinarySecurityToken Id="Compact1">
+<wst:BinarySecret>
+%s: can not parse echo of POST /RST.srf 1
+%s: can not parse echo of POST /RST.srf 2
+</wsse:BinarySecurityToken>
+%s: can not parse echo of POST /RST.srf 3
+</wst:BinarySecret>
+%s: can not parse echo of POST /RST.srf 4
+WS-SecureConversationSESSION KEY HASH
+WS-SecureConversationSESSION KEY ENCRYPTION
+%s: SSOCalResult failed
+msn_oss_get_tickets
+%s %s
+messenger.hotmail.com
+%s: ds_connect failed
+msn_get_ns_info
+VER 1 MSNP15 CVR0
+CVR 2 0x0804 winnt 6.1 i386 MSNMSGR 8.5.1288 MSMSGS %s
+USR 3 SSO I %s
+XFR 3 NS 
+%s: can not get ip & port of ns
+update dyndns
+members.dyndns.org
+can not get dyndns server ip
+create dyndns socket err
+can not connect dyndns server
+%s:%s
+GET http://members.dyndns.org/nic/update?system=statdns&hostname=%s&myip=%s HTTP/1.0
+Host: members.dyndns.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+GET http://members.dyndns.org/nic/update?system=custom&hostname=%s&myip=%s HTTP/1.0
+Host: members.dyndns.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+GET http://members.dyndns.org/nic/update?system=dyndns&hostname=%s&myip=%s HTTP/1.0
+Host: members.dyndns.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+send dyndns data error
+recv error dyndns update pages 1
+recv error dyndns update pages 2
+badsys
+badagent
+badauth
+!donator
+good
+nochg
+notfqdn
+nohost
+!yours
+numhost
+abuse
+dnserr
+recv dyndns error
+%s: no try
+update_noip
+inet ip is %s %d
+inet ip no change, quit
+%s: can not get inet ip
+will update noip
+dynupdate.no-ip.com
+GET /nic/update?hostname=%s HTTP/1.0
+Host: dynupdate.no-ip.com
+Authorization: Basic %s
+User-Agent: reecam ipcam/1.0 gaojunbing@hotmail.com
+%s: ok
+no-ip ok %s %d
+3322 no try
+will update 3322
+members.3322.org
+GET http://members.3322.org/dyndns/update?system=dyndns&hostname=%s HTTP/1.0
+Host: members.3322.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+GET http://members.3322.org/dyndns/update?system=statdns&hostname=%s HTTP/1.0
+Host: members.3322.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+3322 ok %s %d
+!active
+%s: do not try again !
+%s: inet ip no change, quit
+update_mintdns
+%s: can not parse url %s, exit !!!
+%s: can not resolve ip of %s
+%s: can not create socket
+%s: can not connect to %s:%d
+GET %s?hostname=%s HTTP/1.0
+Host: %s
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+%s: send failed
+%s: recv failed
+meishow no try
+will update meishow
+members.meishow.org
+GET /dyndns/update/?system=dyndns&hostname=%s HTTP/1.0
+Host: members.meishow.org
+Authorization: Basic %s
+User-Agent: myclient/1.0 me@null.net
+meishow ok %s %d
+%s: inet ip is %s %d
+update_7988
+will update 7988
+%s: can not get server %s ip
+%s: can not connect server
+%s: can not bind socket to file stream
+0.0.0.0
+GET %s?username=%s&userpwd=%s&userdomain=%s&userport=%d&userip=%s&mac=%.2s-%.2s-%.2s-%.2s-%.2s-%.2s HTTP/1.0
+Host: %s
+User-Agent: myclient/1.0 me@null.net
+%s: can not get echo
+HTTP/%d.%d %d 
+%s: can not get correct echo
+%s: can not find content
+%s: update ok
+%s: update ng error
+%s: update failed: %s
+update_9299
+GET %s?username=%s&userpwd=%s&userdomain=%s&userip=%s&userport=%d&mac=%.2s-%.2s-%.2s-%.2s-%.2s-%.2s&mod=%d HTTP/1.0
+Host: %s
+User-Agent: myclient/1.0 me@null.net
+%s: update da error
+%s: update sne error
+%s: update ne error
+~&jE
+ iciNWq
+x`\`U
+S2zw
+Qjh/T
+w?6r
+\^c$j
+yr,@
+H{1S
+"//w
+AJsN
+*!ec
+pzKD)
+ilRdV
+|sG2
+U$qk.
+27;C
+qUN1
+/n[(
+Ze2Zh@
+Wcr"
+T0.S
+ap?#
+r3A~
+;"lY7
+@n2w
+_g@Cg
+%xP(
+B*k@5
+mK1f
+n:2C[
+V@E'
+::SU
+^|1)
+A4x{%`
+no:7
+7,gm;
+.97yY
+Bh;+j
+.x7B
+{x`M`
+BFUa.X
+YnFpW
+-f3F2
+r9$|
+n6j/
+HWyn
+9)PF
+(-}|
+W;()f
+_xU`u
+08bX
+w``u N
+:get oray info
+hphwebservice.oray.net
+get oray info: data recved exceed 2048 but not ok
+get oray info: recv data error %d
+can not get result parameter
+can not get usertype parameter
+hphwebservice.oray.net connected
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header>
+<AuthHeader xmlns="http://tempuri.org/">
+<Account>%s</Account>
+<Password>%s</Password>
+</AuthHeader>
+</soap:Header>
+<soap:Body>
+<GetMiscInfo xmlns="http://tempuri.org/">
+<clientversion>%s</clientversion>
+9.6.0.3
+</GetMiscInfo>
+</soap:Body>
+</soap:Envelope>
+POST /userinfo.asmx HTTP/1.1
+Host: hphwebservice.oray.net
+Content-Type: text/xml; charset=utf-8
+Content-Length: %d
+SOAPAction: "http://tempuri.org/GetMiscInfo"
+<GetMiscInfoResult>
+</GetMiscInfoResult>
+err result %d
+<PHServer>
+</PHServer>
+<UserType>
+</UserType>
+%127s
+%s %d
+get oray info ok
+error session id
+error return code %d
+id error %d %d
+recv %d at %u
+don't try for bad oray auth
+oray update
+create oray udp socket err
+can not send oray update udp
+send %d at %u
+null oray user or pwd
+oray login
+can not get oray server ip
+create oray socket err
+can not connect oray server
+recv oray error
+AUTH ROUTER
+REGI A %s
+CNFM
+250 %li %li
+QUIT
+/dev/i2c0
+%s: can not open i2c device
+zoom_test
+%s: write error %d
+%s ok
+send inet ip mail ok
+send inet ip mail failed, try later
+time up %u %u
+PID=14
+UName=%s
+PWD=%s
+OEM=reecam
+DomainCount=1
+Domain0=%s
+ddns.myfoscam.org
+%s: can not resolve ip of demo.tridro.com
+%s: sendto failed
+do_tridro_send_14
+%s: not 34
+do_tridro_wait_34
+ERROR
+%s: no ERROR filed
+%s: ERROR %s
+%s: no MSG filed
+DomainCount
+%s: no DomainCount filed
+Domain0
+%s: no Domain0 filed
+%s: bad Domain type %s
+EntServerCount
+ProServerCount
+StdServerCount
+%s: no port1 filed
+%s: no port2 filed
+%s: malloc failed
+FreeServerCount
+%s: no svr filed
+%s: not find correct server
+%s : %d/%d
+%s : timeout
+PID=10
+UName=%s
+PWD=%s
+OEM=reecam
+OS=Linux
+BuildNO=1380
+Domain0=%s
+do_tridro_send_10
+do_tridro_will_update
+%s : ok
+%s: not 30
+do_tridro_wait_30
+%s : not OK field
+%s : bad OK %s
+%s : not key field
+ReportIPSpan
+%s : not ReportIPSpan field
+malloc memory error size:%d times:%d !
+ifconfig eth0 up
+eth0
+/proc/net/vt6656
+/proc/net/rt3070
+/etc/RT2870STA.dat
+[Default]
+CountryRegion=5
+Channel=0
+ifconfig eth1 up
+eth1
+ifconfig eth1 down
+down wire eth
+kill %d
+/etc/dhcpc/dhcpcd-eth0.pid
+/bin/mypppd/pppd
+ifconfig eth0 0.0.0.0
+/etc/dhcpc/dhcpcd-eth1.pid
+/bin/wpa_supplicant
+find wpa_supplicant %d
+ifconfig eth0 0.0.0.0 up
+route add -net 255.255.255.255 netmask 255.255.255.255 eth0
+ifconfig eth0 
+ netmask 
+mkdir /etc/ppp
+cp /bin/mypppd/options /etc/ppp/
+cp /bin/mypppd/pap-secrets /etc/ppp/
+cp /bin/mypppd/chap-secrets /etc/ppp/
+/etc/ppp/options
+open options error
+plugin pppoe eth0
+user %s
+/etc/ppp/pap-secrets
+open pap-secrets error
+"%s" * "%s"
+/etc/ppp/chap-secrets
+open chap-secrets error
+pppd
+route add default gw 
+ eth0
+/etc/host.conf
+open host.conf error
+order bind
+/etc/resolv.conf
+open resolv.conf error
+nameserver %s
+%02x
+/etc/rt73sta.dat
+open /etc/rt73sta.dat error
+open /etc/RT2870STA.dat error
+Adhoc
+Infra
+WirelessMode=9
+WirelessMode=0
+[Default]
+CountryRegion=%d
+SSID=%s
+NetworkType=%s
+Channel=0
+AuthMode=OPEN
+EncrypType=NONE
+AuthMode=WEPAUTO
+EncrypType=WEP
+DefaultKeyID=%d
+Key1Type=%d
+Key2Type=%d
+Key3Type=%d
+Key4Type=%d
+Key1Str=%s
+Key2Str=%s
+Key3Str=%s
+Key4Str=%s
+AuthMode=WPAPSK
+EncrypType=TKIP
+WPAPSK=%s
+AuthMode=WPAPSK
+EncrypType=AES
+WPAPSK=%s
+AuthMode=WPANONE
+EncrypType=AES
+WPAPSK=%s
+AuthMode=WPA2PSK
+EncrypType=AES
+WPAPSK=%s
+AuthMode=WPANONE
+EncrypType=TKIP
+WPAPSK=%s
+AuthMode=WPA2PSK
+EncrypType=TKIP
+WPAPSK=%s
+ifconfig eth1 0.0.0.0 up
+route add -net 255.255.255.255 netmask 255.255.255.255 eth1
+iwconfig eth1 
+essid "%s" 
+essid any 
+mode Ad-Hoc 
+key %s%s (1) 
+key %s%s (2) 
+key %s%s (3) 
+key %s%s (4) 
+key (%d)
+iwpriv eth1 set_auth 1
+iwpriv eth1 set_auth 0
+/etc/wpa.conf
+open wpa.conf error
+network={
+scan_ssid=1
+ssid="%s"
+psk="%s"
+network={
+scan_ssid=1
+mode=1
+ssid="%s"
+psk="%s"
+-c/etc/wpa.conf
+wpa_supplicant
+-ieth1
+-Dzydas
+wetctl eth1 privacy off
+wetctl eth1 privacy %d
+ key0 
+ key0 no
+ key1 
+ key1 no
+ key2 
+ key2 no
+ key3 
+ key3 no
+adhoc
+infra
+share
+open
+wetctl eth1 join %s "%s" 6 no %s
+wetctl eth1 join %s any 6 no %s
+network={
+scan_ssid=1
+ssid="%s"
+mode=1
+proto=WPA
+key_mgmt=WPA-NONE
+psk="%s"
+-Dvntwusb
+ifconfig eth1 
+plugin pppoe eth1
+ eth1
+up wireless
+[Default]
+CountryRegion=5
+Channel=0
+%s: open /etc/RT2870STA.dat error
+do_wifi_scan
+%s: ioctl SIOCSIWSCAN failed
+%s: ioctl IOCTL_CMD_WPA:VIAWGET_SET_SCAN failed
+%s: ie len too short %lu
+wpa_parse_wpa_ie_wpa
+%s: malformed ie or unknown version
+%s: ie length mismatch, %u too much
+%s: ie count botch (pairwise), count %u left %u
+%s: ie too short (for key mgmt)
+%s: ie count botch (key mgmt), count %u left %u
+%s: ie too short (for capabilities)
+%s: ie has %u trailing bytes - ignored
+wpa_parse_wpa_ie_rsn
+%s: PMKID underflow (num_pmkid=%d left=%d)
+wpa_ie=
+rsn_ie=
+%s: ioctl IOCTL_CMD_WPA:VIAWGET_GET_SCAN failed
+get_wifi_scan_result
+%s: ioctl SIOCGIWSCAN failed %d
+[Default]
+CountryRegion=%d
+Channel=0
+SSID=
+NetworkType=
+AuthMode=
+EncrypType=
+WPAPSK=
+DefaultKeyID=
+Key1Type=
+Key1Str=
+Key2Type=
+Key2Str=
+Key3Type=
+Key3Str=
+Key4Type=
+Key4Str=
+%s: ioctl wsc_set_conf_mode failed
+%s: ioctl wsc_set_mode failed
+%s: ioctl wsc_start failed
+start_wsc
+start wps
+%s: open file failed
+is_wsc_ok
+[default]
+CountryRegion=
+Channel=
+WirelessMode=
+SSID=
+NetworkType=
+Infra
+AuthMode=
+OPEN
+SHARED
+WEPAUTO
+WPAPSK
+WPA2PSK
+WPANONE
+wps: unknown authmode %s
+EncrypType=
+NONE
+TKIP
+wps: unknown encryptype %s
+wps: unknown authmode & encryptype %d %d
+WPAPSK=
+DefaultKeyID=
+Key1Type=
+Key1Str=
+Key2Type=
+Key2Str=
+Key3Type=
+Key3Str=
+Key4Type=
+Key4Str=
+wps: too long wep key %s
+wps ok
+params length is %d
+read factory params error !
+factory params zone not inited !
+factory params zone checksum uncorrect!
+can not allocte enough memory for reinit factory zone !
+admin
+time.nist.gov
+reinit factory zone error !
+read camera params error !
+camera params zone not inited !
+camera params zone checksum uncorrect!
+reinit camera params zone error !
+sw version is %s
+read factory video params error !
+factory video params zone not inited !
+factory video params zone checksum uncorrect!
+can not allocte enough memory for reinit factory video zone !
+reinit factory video zone error !
+read video params error !
+video params zone not inited !
+video params zone checksum uncorrect!
+reinit video zone error !
+read dyndns status zone error !
+dyndns status zone not inited !
+dyndns status zone checksum uncorrect!
+can not allocte enough memory for reinit dyndns status zone !
+reinit dyndns status zone error !
+read preset params zone error !
+preset params zone not inited !
+preset params zone checksum uncorrect!
+can not allocte enough memory for reinit preset params zone !
+reinit preset params zone error !
+/proc/flash_4m
+aw checksum not correct !
+aw not exist !
+can not allocte enough memory for read aw!
+aw has error format: file is too long
+/home
+read aw error: can not create file !
+read aw error !
+aw has error format: filename is too long
+aw has error format: size not match %d %d
+aw size exceed %d!
+aw version is %s
+/home/default_mail_account
+%64s
+ifconfig lo 127.0.0.1
+/dev/video0
+open video device error
+/proc/net/zd1211b
+/proc/net/rt2571wf
+/proc/wau8812
+/proc/ac97
+/proc/p1_p1
+/proc/a2_o1
+/proc/a1_p1
+restore factory params
+write video params error !
+write factory video params error !
+write camera params error !
+write factory params error !
+write dyndns params error !
+write preset params error !
+aw upgrade file has error format !
+%s: malloc memory failed
+WriteAW
+aw upgrade file has error checksum !
+encode error
+/dev/i2c0
+can not open i2c device
+write i2c error
+read i2c error
+get image err
+try to reopen video
+MO_M
+MO_O
+MO_V
+GET 
+POST 
+?456789:;<=
+ !"#$%&'()*+,-./0123
+%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
+ppp0
+/proc/net/route
+%8s%8s%8s%X%d%d%d%8s%d%d%h
+/dev/ttyS0
+/dev/ttyS1
+/dev/ttyS2
+/dev/ttyS3
+decoder_control: unknown command
+/proc
+/proc/%s/cmdline
+write image error !!!
+set mac ok !
+read image error !!!
+http://
+%s: not illegal url %s
+parse_url
+checkip.dyndns.com
+can not get dyndns server ip
+create dyndns socket err
+can not connect dyndns server
+GET http://checkip.dyndns.com/ HTTP/1.0
+Host: checkip.dyndns.com
+User-Agent: myclient/1.0 me@null.net
+send dyndns data error
+Current IP Address: 
+</body>
+recv error checkip pages
+%s: error ip %s
+check_dyndns_ip
+recv dyndns error
+check ip is %s
+ipid.shat.net
+%s: can not get ip of ipid.shat.net
+%s: can not create socket
+%s: can not connect to ipid.shat.net
+GET /iponly/ HTTP/1.1
+HOST:ipid.shat.net
+ACCEPT-LANGUAGE:zh-cn
+User-Agent: myclient/1.0 me@null.net
+%s: send request error
+check_ipid_shat_net
+<body>
+%s: parse error %s
+%s: check ip is %s
+"%s"
+/bin/dhcpcd
+dhcpcd
+ipcam_%s_1
+ipcam_%s
+/dev/dsp
+open audio device error
+/dev/mixer
+open mixer device error
+/dev/dsp0
+/dev/mixer0
+dsp and mixer is %d %d
+/dev/dsp2
+/dev/mixer2
+frag is %d
+set speed %d %d
+set channels %d %d
+set fmt %d %d
+create audio msg queue error!
+create audio thread error!
+audio = 1
+audio = 0
+speak = 1
+open speak device error %d %d
+open speak mixer device error
+speak = 0
+set audio buffer %d %d
+sd detect
+audio timeout
+create video msg queue error!
+create video thread error!
+send video msg error!
+/proc/p1_p1
+start monitor video %d
+stop monitor video
+start alarm video %d
+stop alarm video
+start motion video %d
+%s: vsnprintf failed
+smtp_write
+create alarm msg queue error!
+create alarm thread error!
+TZ=GMT%+03d:%02d
+armed !!!!!!
+motion detect alarm !!!!!!
+extern detect alarm !!!!!!
+sound detect alarm !!!!!!
+disarmed !!!!!!
+(%d,%d,%d,%d,%d,%d)
+%Y%m%d%H%M%S
+ftp error: can not get server %s ip
+ftp error: can not create socket
+ftp error: can not connect server %s on port %d
+ftp error: get error echo %d after connect
+USER %s
+ftp error: get error echo %d after user
+PASS %s
+ftp error: get error echo %d after pass
+CWD %s
+ftp error: get error echo %d after cwd
+TYPE I
+ftp error: get error echo %d after type I
+ftp error: can not create data socket
+ftp error: can not bind data socket
+ftp error: can not listen data socket
+PORT %d,%d,%d,%d,%d,%d
+ftp error: get error echo %d after port
+PASV
+ftp error: get error echo %d after pasv
+ftp error: can not connect in pasv mode
+STOR %s(%s)_1_%s_%d.jpg
+STOR %s(%s)_2_%s_%d.jpg
+STOR %s(%s)_3_%s_%d.jpg
+STOR %s_%d.jpg
+STOR %s.jpg
+STOR %s(%s)_0_%s_%d.jpg
+ftp error: get error echo %d after stor
+ftp error: can not accept in port mode
+ftp error: send data error
+ftp error: get error echo %d after data transfer
+STOR %s
+STOR %s(%s)_test.jpg
+%s: can not parse url %s, exit !!!
+http_alarm
+%s: can not get server %s ip
+%s: create socket error
+%s: can not connect svr %s
+%s: can not bind socket to file stream
+GET %s HTTP/1.0
+HOST: %s:%d
+User-Agent: myclient/1.0 me@null.net
+%s: can not init ssl
+init_context
+%s: can not resolve ip of %s
+smtp_open
+%s: can not create socket
+%s: can not connect to svr
+EHLO ipcamera
+STARTTLS
+%s: STARTTLS not working
+%s: Invalid response EHLO: %s
+%s: Invalid response SMTP Server (STARTTLS)
+%s: SSL not working
+%s: SSL connect failed
+HELO ipcamera
+AUTH LOGIN
+MAIL FROM:<%s>
+RCPT TO:<%s>
+DATA
+From: <%s>
+To: <%s>
+a test mail from %s(%s)
+Subject: =?utf-8?B?
+%a, %d %b %Y %H:%M:%S 
+%+03d%02d
+Date: %s
+MIME-Version: 1.0
+X-Mailer: sSMTP
+Content-Type: text/plain;
+charset="utf-8"
+Content-Transfer-Encoding: base64
+%s: invalid response: %s
+smtp_test
+QUIT
+http://%s
+http://%s:%d
+http://%s.%s
+http://%s.%s:%d
+http://%s.qcam.kr
+%s(%s) motion alarm at %s
+%s(%s) sounddetect alarm at %s
+%s(%s) extern alarm at %s
+Content-Type: multipart/mixed;
+boundary="smtp_msg_boundary"
+--smtp_msg_boundary
+Content-Type: image/jpeg;
+%s(%s)_%c%s.jpg
+name="=?utf-8?B?
+--smtp_msg_boundary--
+smtp
+%s(%s)'s url
+%s(%s)'s url is http://%s
+%s(%s)'s url is http://%s:%d
+smtp_inet_ip
+create host msg queue error!
+create av msg queue error!
+create host thread error!
+create av thread error!
+send host msg error!
+MO_V
+recv a opr video end from client %d
+MO_O
+remove opr client for timeout
+MO_I
+create socket error !
+bind error !
+create listen socket error !
+listen error !
+create video listen socket error!
+/home
+accept socket error !
+255.255.255.255
+/etc/resolv.conf
+nameserver %s
+speak buffer %d
+send av msg error!
+send av keep alive
+av wait connect timeout %d
+p2p svr disconnected for timeout
+p2p client disconnected for timeout
+p2p client %x connect failed for timeout
+av connection %d is disconnected
+fdset g_p2p_s avwfds
+need send p2p video
+av stop video %d
+StopTalk
+recv talk data failed
+send audio msg error
+create av socket error!
+av client logon in %d
+--ipcamera
+Content-Type: image/jpeg
+Content-Length: %d
+MO_P
+audio lost 128
+p2p audio lost 128
+av client %d send error %d
+p2p svr login ok %d %d %d
+S_REQUIRE_CAMERA_CONNECT: unknown id
+S_REQUIRE_CAMERA_CONNECT: unknown key
+get a client req from server, peerip:%s peerport:%d
+p2p client send error %d
+p2p client send error2 %d %d
+%02x
+set_param: can not malloc memory
+<HTML><HEAD><TITLE>401 Unauthorized</TITLE></HEAD>
+<BODY BGCOLOR="#cc9999"><H4>401 Unauthorized</H4>
+Authorization required.
+</BODY></HTML>
+HTTP/1.1 401 Unauthorized
+Server: Netwave IP Camera
+Date: %s
+WWW-Authenticate: Basic realm="ipcamera_%s"
+Content-Type: text/html
+Content-Length: %d
+Connection: close
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/plain
+Content-Length: %d
+Cache-Control: no-cache
+Connection: close
+<HTML><HEAD><TITLE>%d %s</TITLE></HEAD>
+<BODY BGCOLOR="#cc9999"><H4>%d %s</H4>
+</BODY></HTML>
+HTTP/1.1 %d %s
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/html
+Content-Length: %d
+Connection: close
+%a, %d %b %Y %H:%M:%S GMT
+process_HTTP_REQ: can not find the first line
+Authorization:
+Basic
+process_HTTP_REQ: Authorization must be Basic
+get_auth_info: auth word is too long
+Content-Length:
+Content-Type:
+boundary=
+process_HTTP_REQ: can not find the end of http head
+post
+process_HTTP_REQ: not support this method %s
+Not Implemented
+Method is not implemented.
+process_HTTP_REQ: only support absolute path
+Bad Request
+Bad filename.
+process_HTTP_REQ: http dir attack !!!!
+index.htm
+.cgi
+videostream.asf
+process_HTTP_REQ: http frame size exceed 8192
+process_HTTP_REQ: can not recv total http head
+process_HTTP_REQ: head is over 768 bytes. It's Hack attack !!!
+Can't parse request.
+.ocx
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: application/octet-stream
+Content-Length: %d
+Connection: close
+.exe
+.cab
+.rar
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: application/rar
+Content-Length: %d
+Connection: close
+.zip
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: application/zip
+Content-Length: %d
+Connection: close
+.css
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/css
+Content-Length: %d
+Cache-Control: private
+Connection: close
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/javascript
+Content-Length: %d
+Cache-Control: private
+Connection: close
+.jpg
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: image/jpeg
+Content-Length: %d
+Cache-Control: private
+Connection: close
+.gif
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: image/gif
+Content-Length: %d
+Cache-Control: private
+Connection: close
+vars.htm
+<script language = "javascript">
+var msid = '%s';
+var alias = '%s';
+var camera_port = %d;
+</script>
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/html
+Content-Length: %d
+Cache-Control: private
+Connection: close
+snapshot.jpg
+user
+do_file: snapshot.jpg need user&pwd 
+do_file: user&pwd of snapshot.jpg is not correct
+Not Found
+File not found.
+%Y%m%d%H%M%S
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: image/jpeg
+Content-Length: %d
+Content-disposition: filename=snapshot_%s_%s.jpg
+Connection: close
+do file: can not get a image
+do_file: can not find file %s
+failed: forbidden now
+failed: exceed max clients.
+buffer
+resolution
+rate
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Connection: close
+Content-Type: video/x-ms-asf
+Pragma: features=broadcast
+snapshot.cgi
+get_status.cgi
+get_camera_params.cgi
+decoder_control.cgi
+camera_control.cgi
+reboot.cgi
+restore_factory.cgi
+upgrade_firmware.cgi
+upgrade_htmls.cgi
+get_params.cgi
+set_alias.cgi
+set_datetime.cgi
+set_users.cgi
+set_devices.cgi
+set_network.cgi
+set_wifi.cgi
+set_pppoe.cgi
+set_upnp.cgi
+set_ddns.cgi
+set_ftp.cgi
+set_mail.cgi
+set_msn.cgi
+set_alarm.cgi
+videostream.cgi
+video.cgi
+test_ftp.cgi
+test_mail.cgi
+set_misc.cgi
+get_misc.cgi
+set_winstar.cgi
+get_winstar.cgi
+get_foscam.cgi
+set_foscam.cgi
+set_extra_io.cgi
+set_factory_ddns.cgi
+get_factory_ddns.cgi
+restore_factory_ddns.cgi
+set_p2p.cgi
+get_p2p.cgi
+set_forbidden.cgi
+get_forbidden.cgi
+set_decoder.cgi
+comm_write.cgi
+wifi_scan.cgi
+get_wifi_scan_result.cgi
+get_log.cgi
+check_user.cgi
+check_user2.cgi
+backup_params.cgi
+restore_params.cgi
+set_factory_params.cgi
+erase_allparams.cgi
+set_mac.cgi
+get_wifi_mac.cgi
+do_cgi: unknown cgi
+320x240
+640x480
+160x120
+352x288
+176x144
+next_url
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: image/jpeg
+Content-Length: %d
+Content-disposition: filename="%s"
+Connection: close
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: image/jpeg
+Content-Length: %d
+Content-disposition: filename="snapshot_%s_%s.jpg"
+Connection: close
+error: can not get a image
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: text/plain
+Content-Length: %d
+Connection: close
+var %s='
+sys_ver
+app_ver
+alias
+var now=%d;
+var tz=%d;
+var alarm_status=%d;
+var ddns_status=%d;
+ddns_host
+var oray_type=%d;
+var upnp_status=%d;
+var p2p_status=%d;
+var p2p_local_port=%d;
+var msn_status=%d;
+var wifi_status=%d;
+var temperature=%s%d.%d;
+var humidity=%d;
+tridro_error
+var resolution=%d;
+var brightness=%d;
+var contrast=%d;
+var mode=%d;
+var flip=%d;
+var fps=%d;
+command
+error: illegal params.
+param
+value
+var daylight_saving_time=%d;
+var ntp_enable=%d;
+ntp_svr
+user%d_name
+user%d_pwd
+var user%d_pri=%d;
+dev%d_alias
+dev%d_host
+var dev%d_port=%d;
+dev%d_user
+dev%d_pwd
+mask
+gateway
+dhcp_vendor
+var port=%d;
+var wifi_enable=%d;
+wifi_ssid
+var wifi_encrypt=%d;
+var wifi_defkey=%d;
+wifi_key1
+wifi_key2
+wifi_key3
+wifi_key4
+var wifi_authtype=%d;
+var wifi_keyformat=%d;
+var wifi_key1_bits=%d;
+var wifi_key2_bits=%d;
+var wifi_key3_bits=%d;
+var wifi_key4_bits=%d;
+var wifi_mode=%d;
+wifi_wpa_psk
+var wifi_country=%d;
+var pppoe_enable=%d;
+pppoe_user
+pppoe_pwd
+var upnp_enable=%d;
+var ddns_service=%d;
+ddns_user
+ddns_pwd
+ddns_proxy_svr
+var ddns_proxy_port=%d;
+mail_svr
+var mail_port=%d;
+var mail_tls=%d;
+mail_user
+mail_pwd
+mail_sender
+mail_receiver1
+mail_receiver2
+mail_receiver3
+mail_receiver4
+var mail_inet_ip=%d;
+ftp_svr
+var ftp_port=%d;
+ftp_user
+ftp_pwd
+ftp_dir
+var ftp_mode=%d;
+var ftp_retain=%d;
+var ftp_upload_interval=%d;
+ftp_filename
+var ftp_numberoffiles=%d;
+var ftp_schedule_enable=%d;
+var ftp_schedule_sun_0=%u;
+var ftp_schedule_sun_1=%u;
+var ftp_schedule_sun_2=%u;
+var ftp_schedule_mon_0=%u;
+var ftp_schedule_mon_1=%u;
+var ftp_schedule_mon_2=%u;
+var ftp_schedule_tue_0=%u;
+var ftp_schedule_tue_1=%u;
+var ftp_schedule_tue_2=%u;
+var ftp_schedule_wed_0=%u;
+var ftp_schedule_wed_1=%u;
+var ftp_schedule_wed_2=%u;
+var ftp_schedule_thu_0=%u;
+var ftp_schedule_thu_1=%u;
+var ftp_schedule_thu_2=%u;
+var ftp_schedule_fri_0=%u;
+var ftp_schedule_fri_1=%u;
+var ftp_schedule_fri_2=%u;
+var ftp_schedule_sat_0=%u;
+var ftp_schedule_sat_1=%u;
+var ftp_schedule_sat_2=%u;
+var alarm_motion_armed=%d;
+var alarm_motion_sensitivity=%d;
+var alarm_motion_compensation=%d;
+var alarm_input_armed=%d;
+var alarm_ioin_level=%d;
+var alarm_sounddetect_armed=%d;
+var alarm_sounddetect_sensitivity=%d;
+var alarm_iolinkage=%d;
+var alarm_preset=%d;
+var alarm_ioout_level=%d;
+var alarm_mail=%d;
+var alarm_upload_interval=%d;
+var alarm_http=%d;
+var alarm_msn=%d;
+alarm_http_url
+var alarm_schedule_enable=%d;
+var alarm_schedule_sun_0=%u;
+var alarm_schedule_sun_1=%u;
+var alarm_schedule_sun_2=%u;
+var alarm_schedule_mon_0=%u;
+var alarm_schedule_mon_1=%u;
+var alarm_schedule_mon_2=%u;
+var alarm_schedule_tue_0=%u;
+var alarm_schedule_tue_1=%u;
+var alarm_schedule_tue_2=%u;
+var alarm_schedule_wed_0=%u;
+var alarm_schedule_wed_1=%u;
+var alarm_schedule_wed_2=%u;
+var alarm_schedule_thu_0=%u;
+var alarm_schedule_thu_1=%u;
+var alarm_schedule_thu_2=%u;
+var alarm_schedule_fri_0=%u;
+var alarm_schedule_fri_1=%u;
+var alarm_schedule_fri_2=%u;
+var alarm_schedule_sat_0=%u;
+var alarm_schedule_sat_1=%u;
+var alarm_schedule_sat_2=%u;
+var decoder_baud=%d;
+msn_user
+msn_pwd
+msn_friend1
+msn_friend2
+msn_friend3
+msn_friend4
+msn_friend5
+msn_friend6
+msn_friend7
+msn_friend8
+msn_friend9
+msn_friend10
+error: this cgi only support post method.
+error: illegal file.
+/swap/firmware.bin
+error: busy, try later.
+error: system error, try later.
+error: illegal http frame.
+error: network error.
+ntp_enable
+daylight_saving_time
+user%d
+pwd%d
+pri%d
+dev%d_port
+port
+enable
+ssid
+encrypt
+defkey
+mode
+authtype
+keyformat
+key1_bits
+key2_bits
+key3_bits
+key4_bits
+key1
+key2
+key3
+key4
+wpa_psk
+country
+cam_user
+cam_pwd
+service
+proxy_port
+host
+proxy_svr
+restart_dyndns
+retain
+upload_interval
+filename
+numberoffiles
+schedule_enable
+schedule_sun_0
+schedule_sun_1
+schedule_sun_2
+schedule_mon_0
+schedule_mon_1
+schedule_mon_2
+schedule_tue_0
+schedule_tue_1
+schedule_tue_2
+schedule_wed_0
+schedule_wed_1
+schedule_wed_2
+schedule_thu_0
+schedule_thu_1
+schedule_thu_2
+schedule_fri_0
+schedule_fri_1
+schedule_fri_2
+schedule_sat_0
+schedule_sat_1
+schedule_sat_2
+sender
+receiver1
+receiver2
+receiver3
+receiver4
+mail_inet_ip
+friend1
+friend2
+friend3
+friend4
+friend5
+friend6
+friend7
+friend8
+friend9
+friend10
+motion_armed
+motion_sensitivity
+sounddetect_armed
+sounddetect_sensitivity
+input_armed
+iolinkage
+mail
+ioin_level
+ioout_level
+http
+http_url
+preset
+motion_compensation
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Accept-Ranges: bytes
+Connection: close
+Content-Type: multipart/x-mixed-replace;boundary=ipcamera
+var result=%d;
+led_mode
+ptz_center_onstart
+ptz_auto_patrol_interval
+ptz_auto_patrol_type
+ptz_patrol_h_rounds
+ptz_patrol_v_rounds
+ptz_patrol_rate
+ptz_patrol_up_rate
+ptz_patrol_down_rate
+ptz_patrol_left_rate
+ptz_patrol_right_rate
+ptz_disable_preset
+ptz_preset_onstart
+var led_mode=%d;
+var ptz_center_onstart=%d;
+var ptz_auto_patrol_interval=%d;
+var ptz_auto_patrol_type=%d;
+var ptz_patrol_h_rounds=%d;
+var ptz_patrol_v_rounds=%d;
+var ptz_patrol_rate=%d;
+var ptz_patrol_up_rate=%d;
+var ptz_patrol_down_rate=%d;
+var ptz_patrol_left_rate=%d;
+var ptz_patrol_right_rate=%d;
+var ptz_disable_preset=%d;
+var ptz_preset_onstart=%d;
+webservice_url
+webservice_poll_interval
+webservice_enabled
+var webservice_enabled=%d;
+var webservice_poll_interval=%d;
+var webservice_status=%d;
+reserve_params1
+reserve_params2
+reserve_params3
+reserve_params4
+reserve_params5
+reserve_params6
+var reserve_params1=%d;
+var reserve_params2=%d;
+var reserve_params3=%d;
+var reserve_params4=%d;
+var reserve_params5=%d;
+var reserve_params6=%d;
+/dev/i2c0
+error: internal error.
+%s: can not open i2c device
+do_set_extra_io_cgi
+error: unsupport.
+%s: write error %d
+var schedule_enable=%d;
+var schedule_sun_0=%u;
+var schedule_sun_1=%u;
+var schedule_sun_2=%u;
+var schedule_mon_0=%u;
+var schedule_mon_1=%u;
+var schedule_mon_2=%u;
+var schedule_tue_0=%u;
+var schedule_tue_1=%u;
+var schedule_tue_2=%u;
+var schedule_wed_0=%u;
+var schedule_wed_1=%u;
+var schedule_wed_2=%u;
+var schedule_thu_0=%u;
+var schedule_thu_1=%u;
+var schedule_thu_2=%u;
+var schedule_fri_0=%u;
+var schedule_fri_1=%u;
+var schedule_fri_2=%u;
+var schedule_sat_0=%u;
+var schedule_sat_1=%u;
+var schedule_sat_2=%u;
+baud
+bytes
+data
+var ap_bssid=new Array();
+var ap_ssid=new Array();
+var ap_mode=new Array();
+var ap_security=new Array();
+ap_bssid[%d]='%02x%02x%02x%02x%02x%02x';
+%s[%d]='
+ap_ssid
+ap_mode[%d]=%d;
+ap_security[%d]=%d;
+var ap_number=%d;
+var log_text='
+%a, %Y-%m-%d %H:%M:%S
+access
+%-27s%-15s%-18s%s
+leave
+%-27s%s
+motion detect
+triger detect
+sound detect
+var pri=%d;
+video
+HTTP/1.1 200 OK
+Server: Netwave IP Camera
+Date: %s
+Content-Type: application/octet-stream
+Content-Length: %d
+Content-disposition: filename="params.bin"
+Connection: close
+check parames header failed
+error: system failed.
+p2p_svr
+p2p_id
+p2p_svr_port
+var p2p_svr_port=%d;
+var factory_ddns_service=%d;
+factory_ddns_user
+factory_ddns_pwd
+factory_ddns_host
+factory_ddns_proxy_svr
+var factory_ddns_proxy_port=%d;
+/dev/ptz0
+can not open ptz device !!!
+create dog thread error!
+video stop 0x%x 0x%x
+audio stop 0x%x 0x%x
+ds stop 0x%x 0x%x
+host stop 0x%x 0x%x
+av stop 0x%x 0x%x
+alarm stop 0x%x 0x%x
+msn stop 0x%x 0x%x
+%s: poll error
+ReceiveData
+%s: recv error
+%s: gethostbyname(%s) error
+miniwget2
+%s: socket error
+%s: connect error
+GET %s HTTP/1.1
+Host: %s:%d
+Connection: Close
+content-length
+NewRemoteHost
+NewExternalPort
+NewProtocol
+NewInternalPort
+NewInternalClient
+NewEnabled
+NewPortMappingDescription
+IP-Camera
+NewLeaseDuration
+AddPortMapping
+errorCode
+DeletePortMapping
+POST %s HTTP/1.1
+HOST: %s:%d
+Content-length: %d
+Content-Type: text/xml
+SOAPAction: "%s"
+Connection: Close
+%s#%s
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><m:%s xmlns:m="%s"/></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><m:%s xmlns:m="%s">
+></SOAP-ENV:Body></SOAP-ENV:Envelope>
+simpleUPnPcommand
+GetStatusInfo
+NewUptime
+NewConnectionStatus
+Connected
+service
+urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+urn:schemas-upnp-org:service:WANIPConnection:1
+URLBase
+serviceType
+controlURL
+eventSubURL
+SCPDURL
+deviceType
+%s: socket(unix) error
+getDevicesFromMiniSSDPD
+write()
+location
+M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+ST: %s
+MAN: "ssdp:discover"
+MX: 3
+urn:schemas-upnp-org:device:InternetGatewayDevice:1
+urn:schemas-upnp-org:service:WANPPPConnection:1
+upnp:rootdevice
+/var/run/minissdpd.sock
+239.255.255.250
+%s: setsockopt error
+upnpDiscover
+%s: bind error
+%s: sendto error
+InternetGatewayDevice
+%s: No IGD UPnP Device found on the network !
+upnpc_add_map
+%s: No valid UPNP Internet Gateway Device found.
+%s: Action failed
+upnpc_del_map
+adjtimex
+ntpc.c: settimeofday error
+ntpc.c: create socket error
+ntpc.c: bind error
+ntpc.c: can not resolve ntpserver(%s)'s ip
+ntpc adjust ok
+%s: can not parse url %s
+real_poll_foscam_webservice
+%s %d %s
+%s: can not get server %s ip
+%s: can not create socket
+%s: can not connect server
+%s: can not bind socket to file stream
+GET %s?DeviceId=%s HTTP/1.0
+HOST: %s:%d
+User-Agent: myclient/1.0 me@null.net
+%s: can not get echo
+HTTP/%d.%d %d 
+%s: can not get correct echo
+%s: can not find content
+<Command>
+%s: error content
+</Command>
+<DeviceId>
+</DeviceId>
+<Number>
+</Number>
+%s: error id %s
+Idle
+%s: idle
+StartCapturing
+%s: start capture
+StopCapturing
+%s: stop capture
+MoveUp
+MoveDown
+MoveLeft
+MoveRight
+%s: %s %d
+%s: error command %s
+%s: create socket error
+init_p2p_socket
+%s: can not parse url %s, exit !!!
+logon_p2p_svr
+%s: can not get server %s ip
+%s: can not connect svr %s
+%s: can not bind socket to file stream
+GET %s HTTP/1.0
+HOST: %s:%d
+User-Agent: myclient/1.0 me@null.net
+%s: can not get echo
+HTTP/%d.%d %d 
+%s: can not get correct echo
+%s: can not find content
+p2p login svr is %s:%d
+%s : ok
+/dev/i2c0
+%s: can not open i2c device
+_i2c_read
+%s: read i2c error
+_i2c_write
+%s: write i2c error
+bonjour
+create bonjour thread error!
+bonjour callback: service registered
+bonjour callback: name conflict
+status == mStatus_NoError
+bonjour.c
+RegistrationCallback
+bonjour callback: memory free
+&cursor->coreServ != thisRegistration
+bonjour callback: unknown status
+%s: Registered service %d, name '%s', type '%s', port %ld
+_http._tcp.
+local.
+%s: Deregistered service %d
+ipcamera(id:%s, alias:%s)
+ipcamera(id:%s)
+hostname ipcamera_%s
+mdns init failed !
+register mdns service failed !
+mDNSPlatformSendUDP got error %d (%s) sending packet to %#a on interface %#a/%s/%d
+mDNSPlatformSendUDP got error %d (%s) sending packet to %#a
+dstPort.NotAnInteger != 0
+mDNSPosix.c
+mDNSPlatformSendUDP
+(((char *) end) - ((char *) msg)) > 0
+end != ((void *)0)
+msg != ((void *)0)
+m != ((void *)0)
+*** WARNING: Received %d packets; Accepted %d packets; Rejected %d packets because of interface mismatch
+skt >= 0
+SocketDataReady
+%10s %15s
+nameserver
+intfName != ((void *)0)
+SearchForInterfaceByName
+mDNSPlatformInterfaceIDfromInterfaceIndex
+mDNSPlatformInterfaceIndexfromInterfaceID
+FreePosixNetworkInterface
+intf != ((void *)0)
+close(intf->multicastSocket4) == 0
+Deregistered interface %s
+ClearInterfaceList
+*sktPtr == -1
+SetupSocket
+close(*sktPtr) == 0
+(err == 0) == (*sktPtr != -1)
+bind
+setsockopt - IP_MULTICAST_TTL
+setsockopt - IP_TTL
+setsockopt - IP_MULTICAST_IF
+setsockopt - IP_ADD_MEMBERSHIP
+setsockopt - IP_PKTINFO
+setsockopt - SO_REUSExxxx
+socket AF_INET
+socket AF_INET6
+sktPtr != ((void *)0)
+intfAddr != ((void *)0)
+(err == 0) == (intf != ((void *)0))
+SetupOneInterface
+Registered interface %s
+intf->intfName != ((void *)0)
+intfMask != ((void *)0)
+SetupInterfaceList
+%s: mDNS_Lock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNSPlatformInit
+%s: mDNS_Unlock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNS(%d) WARNING: Unable to detect interface changes (%d).
+/etc/resolv.conf
+Computer
+mDNSPlatformClose
+close(m->p->unicastSocket4) == 0
+readfds != ((void *)0)
+mDNSPosixProcessFDSet
+junk == 0
+mDNSUNP.c
+get_ifi_info
+recvfrom_flags
+ERROR: UnlinkAuthRecord - no such active record %##s
+ERROR: unlinkSRS - SRS not found in ServiceRegistrations list %##s
+unlinkSRS: extra record %##s not found
+SetRecordRetry retry   in %4d for %s
+mDNS_AddDNSServer: Adding %#a for %##s
+mDNS_AddDNSServer: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+Error: mDNS_AddDNSServer - malloc
+PenalizeDNSServer: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+PenalizeDNSServer: DNS server %#a:%d (%##s) %d unanswered queries for %##s (%s)
+PenalizeDNSServer: Strict Unicast Ordering is TRUE
+PenalizeDNSServer: Server for %##s (%s) changed to %#a:%d (%##s), Question Interval %u
+PenalizeDNSServer: Server for %##s (%s) changed to <null>, Question Interval %u
+PenalizeDNSServer: Server for %##s (%s) changed to %#a:%d (%##s)
+PenalizeDNSServer: Server for %##s (%s) remains the same at %#a:%d (%##s)
+PenalizeDNSServer: Server for %##s (%s) changed to <null>
+PenalizeDNSServer: Strict Unicast Ordering is FALSE
+PenalizeDNSServer: Penalizing question type %d
+PenalizeDNSServer: Not Penalizing PTR question
+PenalizeDNSServer: DNS server %#a:%d (%##s) Server Error for %##s (%s)
+PenalizeDNSServer: Null DNS server for %##s (%s) %d
+GetAuthInfoForName_internal: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+GetAuthInfoForName_internal deleting expired key %##s %##s
+GetAuthInfoForName
+%s: mDNS_Lock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+%s: mDNS_Unlock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNS_SetSecretForDomain: ERROR: info %p b64keydata %p
+ AutoTunnel
+mDNS_SetSecretForDomain: domain %##s key %##s%s
+mDNS_SetSecretForDomain: ERROR: Could not convert shared secret from base64: domain %##s key %##s %s
+Error getting external address %d
+Received external IP address %.4a from NAT
+Double NAT (external NAT gateway address %.4a is also a private RFC 1918 address)
+natTraversalHandlePortMapReply: %p Response %s Port %5d External Port %5d lease %d error %d
+natTraversalHandlePortMapReply: %p Response %s Port %5d External Port %5d changed to %5d
+natTraversalHandlePortMapReply: %p Response %s Port %5d External Port %5d lease %d
+mDNS_StartNATOperation_internal Protocol %d IntPort %d RequestedPort %d NATLease %d
+Warning: Created port mapping request %p Prot %d Int %d TTL %d duplicates existing port mapping request %p Prot %d Int %d TTL %d
+Error! Tried to add a NAT traversal that's already in the active list: request %p Prot %d Int %d TTL %d
+mDNS_StopNATOperation: NATTraversalInfo %p not found in list
+mDNS_StopNATOperation_internal %d %d %d %d
+Warning: Removed port mapping request %p Prot %d Int %d TTL %d duplicates existing port mapping request %p Prot %d Int %d TTL %d
+mDNS_StartNATOperation
+mDNS_StopNATOperation
+ERROR: putLLQ - PutResourceRecordTTLJumbo
+ERROR: putLLQ - putQuestion
+ (TCP)
+sendChallengeResponse: mDNSSendDNSMessage%s failed: %d
+sendChallengeResponse: %d failed attempts for LLQ %##s
+ERROR: recvSetupResponse %##s (%s) - rcode && rcode != kDNSFlag1_RC_NXDomain
+ERROR: recvSetupResponse %##s (%s) - bad op %d
+ERROR: recvSetupResponse %##s (%s) - bad vers %d
+Private LLQ_SecondaryRequest; copying id %08X%08X
+ERROR: recvSetupResponse %##s (%s) code %d from server
+recvSetupResponse - ID changed.  discarding
+recvSetupResponse - received llq->err %d from server
+recvRefreshReply: received error %d from server
+tcpCallback: %d backpointer %p incorrect tcpInfo %p question %p srs %p rr %p
+tcpCallback
+tcpCallback: stream connection for %##s (%s) failed, retrying in %d ms
+tcpCallback: stream connection for LLQ %##s (%s) failed %d times, retrying in %d ms
+tcpCallback: ERROR: tcpInfo->srs->RR_SRV.resrec.name %p != &tcpInfo->srs->RR_SRV.namestorage %p
+tcpCallback: ERROR: tcpInfo->rr->resrec.name %p != &tcpInfo->rr->namestorage %p
+tcpCallback: eventPort %d
+ERROR: tcpCallback - putLLQ
+ERROR: socket closed prematurely tcpInfo->nread = %d
+ERROR: tcpCallback - length too short (%d bytes)
+tcpCallback: CompleteDeregistration %s
+ERROR: tcpCallback - read returned %d
+ERROR: tcpCallback - malloc failed
+ERROR: tcpCallback - attempt to read message length failed (%d)
+MakeTCPConnection: connection failed
+SendServiceRegistration: unable to create TCP socket
+ERROR: MakeTCP - memallocate failed
+startLLQHandshake: Disposing existing TCP connection for %##s (%s)
+startLLQHandshake: %d failed attempts for LLQ %##s Polling.
+ERROR: startLLQHandshake - putLLQ
+startLLQHandshake: Cannot receive inbound packets; will poll for %##s (%s)
+startLLQHandshake: waiting for NAT status for %##s (%s)
+SendServiceRegistration: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+SendServiceRegistration: Disposing existing TCP connection for %s
+SendServiceRegistration ERROR formatting message %d!! Permanently abandoning service registration %##s
+%s: Locking Failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+SendServiceRegistration
+%s: Unlocking Failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+_dns-update
+_udp
+_dns-llq
+_udp
+_dns-update-tls
+_tcp
+_dns-query-tls
+_tcp
+_dns-llq-tls
+_tcp
+GetZoneData recursed to root label of %##s without finding SOA
+StartGetZoneData
+ERROR: StartGetZoneData - mDNSPlatformMemAllocate failed
+CompleteSRVNatMap
+ERROR: CompleteSRVNatMap called but srs->SRSUpdateServer.ip.v4 is zero!
+CompleteSRVNatMap called with unknown ServiceRecordSet object
+_tcp
+_udp
+StartSRVNatMap: could not determine transport protocol of service %##s
+ServiceRegistrationGotZoneData: mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+ServiceRegistrationGotZoneData
+ServiceRegistrationGotZoneData: ERROR: srs->RR_SRV.resrec.rdata is NULL
+SendServiceDeregistration TCP %p %s
+SendServiceDeregistration: Disposing existing TCP connection for %s
+SendServiceDeregistration ERROR formatting message %d!! Permanently abandoning service registration %##s
+ERROR: SendServiceDeregistration - putZone
+UpdateSRV: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+UpdateSRV: Unknown state %d for %##s
+UpdateSRVRecords ERROR CurrentServiceRecordSet already set
+UpdateSRVRecords
+Updating hostname %##s IPv4 from %.4a to %.4a (NAT gateway's external address)
+Advertising hostname %##s IPv4 %.4a (NAT gateway's external address)
+RegisterHostnameRecord: registration cancelled
+Advertising hostname %##s IPv6 %.16a
+Advertising hostname %##s IPv4 %.4a
+HostnameCallback: Error %d for registration of %##s IP %.16a
+Error: HostnameCallback invoked with error code for record not in regState_Unregistered!
+HostnameCallback: Error %d for registration of %##s IP %.4a
+HostnameCallback
+Registered hostname %##s IP %.16a
+Registered hostname %##s IP %.4a
+HostnameCallback invoked with orphaned address record
+HostnameCallback: Got mStatus_MemFree for %p %p %s
+FoundStaticHostname
+%d.%d.%d.%d.in-addr.arpa.
+Error: GetStaticHostname - bad name %s
+GetStaticHostname: %##s (%s)
+Error: GetStaticHostname - StartQuery returned error %d
+mDNS_AddDynDNSHostName %##s
+DynDNSHostName %##s already in list
+ERROR: mDNS_AddDynDNSHostName - malloc
+mDNS_RemoveDynDNSHostName %##s
+mDNS_RemoveDynDNSHostName removing v4 %##s
+mDNS_RemoveDynDNSHostName removing v6 %##s
+mDNS_RemoveDynDNSHostName: no such domainname %##s
+mDNS_SetPrimaryInterfaceInfo: mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNS_SetPrimaryInterfaceInfo v4 address - incorrect type.  Discarding. %#a
+mDNS_SetPrimaryInterfaceInfo v6 address - incorrect type.  Discarding. %#a
+mDNS_SetPrimaryInterfaceInfo passed non-v4 router.  Discarding. %#a
+mDNS_SetPrimaryInterfaceInfo
+v6Changed 
+v4Changed 
+RouterChanged 
+mDNS_SetPrimaryInterfaceInfo: %s%s%s%#a %#a %#a
+mDNS_SetPrimaryInterfaceInfo updating host name registrations for %##s
+mDNS_SetPrimaryInterfaceInfo deregistering %s
+ v4Changed
+ RouterChanged
+mDNS_SetPrimaryInterfaceInfo:%s%s: retryGetAddr in %d %d
+%##s: unknown tsig error %d
+%##s: bad time
+%##s: bad key
+%##s: bad signature
+Update %##s failed with rcode %d
+Format Error: %##s
+Permission denied (NOAUTH): %##s
+Reregister refused (NXRRSET): %##s
+Update %##s refused
+SendRecordRegistration: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+SendRecordRegistration TCP %p %s
+SendRecordRegistration: Disposing existing TCP connection for %s
+SendRecordRegistration: Error formatting message for %s
+hndlServiceUpdateReply: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+hndlServiceUpdateReply
+hndlServiceUpdateReply ERROR! state == regState_Unregistered but err != mStatus_MemFree. Permanently abandoning service registration %##s
+Error %d for registration of service %##s
+Re-trying update of service %##s without lease option
+Error %d for deregistration of service %##s
+hndlServiceUpdateReply: Unknown state %d for %##s
+Error %d for refresh of service %##s
+hndlServiceUpdateReply: error updating TXT record for service %##s
+hndlServiceUpdateReply called for service %##s in unexpected state %d with error %d.  Unlinking.
+hndlRecordUpdateReply: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+hndlRecordUpdateReply: err %d state %d %s
+hndlRecordUpdateReply: Registration of record %##s type %d failed with error %d
+Re-trying update of record %##s without lease option
+hndlRecordUpdateReply
+hndlRecordUpdateReply rr->state == regState_Unregistered %s
+Cancelling deferred deregistration record %##s type %d due to registration error %d
+ERROR: Deregistration of record %##s type %d failed with error %d
+Update record failed for %##s (err %d)
+NAT Traversal message too short (%d bytes)
+Received NAT Traversal response with version %d (expected %d)
+NAT gateway %#a rebooted
+NAT Traversal PortMapReply message too short (%d bytes)
+Received NAT Traversal response with version unknown opcode 0x%X
+NAT Traversal AddrResponse message too short (%d bytes)
+dnsbugtest
+in-addr
+arpa
+in-addr
+arpa
+ NOTE: Reply did not come from address to which query was sent
+NOTE: Wide-Area Service Discovery disabled to avoid crashing defective DNS relay %#a:%d (%#a:%d) %d%s
+DNS Server %#a:%d (%#a:%d) %d passed%s
+uDNS_ReceiveMsg ERROR CurrentServiceRecordSet already set
+uDNS_ReceiveMsg ERROR m->CurrentRecord already set %s
+uDNS_ReceiveMsg: Using existing TCP connection for %##s (%s)
+uDNS_ReceiveMsg
+uDNS_ReceiveMsg: TCP DNS response had TC bit set: ignoring
+sendLLQRefresh: mDNSSendDNSMessage%s failed: %d
+sendLLQRefresh setting up new TLS session %##s (%s)
+sendLLQRefresh: DNSDigest_SignMessage failed %##s (%s)
+sendLLQRefresh: putHINFO failed %##s (%s)
+sendLLQRefresh: putLLQ failed %##s (%s)
+Unable to refresh LLQ %##s (%s) - will retry in %d seconds
+LLQGotZoneData
+PrivateQueryGotZoneData %##s (%s) err %d Zone %##s Private %d
+ERROR: PrivateQueryGotZoneData %##s (%s) invoked with error code %d %p %#a:%d
+ERROR: PrivateQueryGotZoneData: cannot find credentials for q %##s (%s)
+PrivateQueryGotZoneData
+RecordRegistrationGotZoneData: mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+RecordRegistrationGotZoneData: error %d
+ERROR: New resource record's class (%d) does not match zone class (%d)
+RecordRegistrationGotZoneData: Zone "%##s" is longer than "%##s"
+RecordRegistrationGotZoneData
+RecordRegistrationGotZoneData: No _dns-update._udp service found for "%##s"!
+RecordRegistrationGotZoneData: Zone "%##s" does not match "%##s" for "%##s"
+RecordRegistrationGotZoneData: No name server found claiming responsibility for "%##s"!
+ERROR: RecordRegistrationGotZoneData invoked with NULL result and no error
+RecordRegistrationGotZoneData - RR no longer in list.  Discarding.
+SendRecordDeregistration TCP %p %s
+SendRecordDeregistration: Disposing existing TCP connection for %s
+SendRecordDeregistration Error: could not contruct deregistration packet for %s
+regState_NATMap        %##s type %s
+regState_DeregDeferred %##s type %s
+uDNS_DeregisterRecord: State %d for %##s type %s
+regState_Unregistered  %##s type %s
+regState_NoTarget      %##s type %s
+regState_NATError      %##s type %s
+Unknown State
+uDNS_DeregisterService: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+uDNS_DeregisterService: Unknown state %d for %##s
+Error, uDNS_DeregisterService: %s
+bad state (regState_ExtraQueued)
+uDNS_DeregisterService
+uDNS_UpdateRecord: Unknown state %d for %##s
+Requested update of record %##s type %d, part of service not currently registered
+ERROR: uDNS_UpdateRecord called for record %##s with bad state regState_NATError
+Sent %d unanswered queries for %##s (%s) to %#a:%d (%##s)
+uDNS_CheckCurrentQuestion: private non polling question for %##s (%s) will be retried in %d ms
+Sending DNS test query to %#a:%d
+uDNS_CheckCurrentQuestion DNS server %#a:%d for %##s is disabled
+uDNS_CheckCurrentQuestion no DNS server for %##s (%s)
+CheckNATMappings retryGetAddr sent address request err %d interval %d
+WARNING m->CurrentNATTraversal already in use
+CheckNATMappings
+Failed to obtain NAT port mapping %p from router %#a external address %.4a internal port %5d interval %d error %d
+CheckNATMappings: Failed to allocate port 5350 UDP multicast socket for NAT-PMP announcements
+CheckServiceRegistrations ERROR CurrentServiceRecordSet already set
+ResetDNSServerPenalties: DNS server %#a:%d out of penalty box
+SleepServiceRegistrations: state %d %s
+mDNS_AddSearchDomain created new %##s
+ERROR: mDNS_AddSearchDomain - malloc
+mDNS_AddSearchDomain already in list %##s
+FoundDomain - unknown question
+FoundDomain: %p %s %s Q %##s A %s
+local
+FoundDomain: Registering %s
+ERROR: FoundDomain - mDNS_Register returned %d
+ERROR: FoundDomain out of memory
+FoundDomain: Deregistering %s
+ERROR: FoundDomain - mDNS_Deregister returned %d
+uDNS_RegisterSearchDomains
+RegisterSearchDomains %d %p %##s
+RegisterSearchDomains - unknown flag %d. Skipping.
+local
+GetDomains for domain %##s returned error(s):
+%d (mDNS_DomainTypeBrowse)
+%d (mDNS_DomainTypeBrowseDefault)
+%d (mDNS_DomainTypeRegistration)
+%d (mDNS_DomainTypeRegistrationDefault)%d (mDNS_DomainTypeBrowseAutomatic)
+ERROR: RegisterSearchDomains mDNS_Deregister returned %d
+HINFO
+CNAME
+Addr
+(%d)
+NULL
+AAAA
+TSIG
+NSEC
+%4d %##s %s 
+%.4a
+%##s %##s %d %d %d %d %d
+%##s
+%s%#s
+%.16a
+%u %u %u %##s
+Max %d
+ Unknown %d
+ Vers %d
+ Op %d
+ Err/Port %d
+ ID %08X%08X
+ Lease %d
+ Seq %3d
+ MAC %.6a
+ I-MAC %.6a
+ Password %.6a
+RDLen %d: %s
+<< ZERO RDATA LENGTH >>
+local
+in-addr
+arpa
+arpa
+arpa
+arpa
+arpa
+AppendDNSNameString: Illegal empty label in name "%s"
+_sub
+Service instance name too long
+Bad service type in %#s.%##s%##s Application protocol name must be underscore plus 1-14 characters. See <http://www.dns-sd.org/ServiceTypes.html>
+Application protocol name must begin with underscore
+Transport protocol name must be _udp or _tcp
+ConstructServiceName: %s: %#s.%##s%##s
+Service type must have only two labels
+Service domain must be non-empty
+local
+arpa
+Illegal domain "local.arpa." Use "local." (or empty string)
+Service domain too long
+Application protocol name must contain only letters, digits, and hyphens
+_services
+_dns-sd
+_udp
+Malformed domain name %##s (more than 256 bytes)
+Malformed domain name %##s (label more than 63 bytes)
+putDomainNameAsLabels %##s ptr is null
+ERROR: putOptRData - out of space
+PutResourceRecordTTL: ERROR: No target count to update for %##s (%s)
+PutResourceRecordTTLWithLimit ptr is null
+PutResourceRecord ERROR! Attempt to put kDNSRecordTypeUnregistered %##s (%s)
+ERROR: putUpdateLease - PutResourceRecordTTL
+GetLargeResourceRecord: opt %d optlen %d wrong
+GetLargeResourceRecord: Malformed OptRdata
+GetLargeResourceRecord: ptr + opt->optlen > end
+GetLargeResourceRecord: OPT RDATA ptr + 4 > end
+GetLargeResourceRecord: Malformed NSEC
+GetLargeResourceRecord: No RecordType for %##s
+GetLargeResourceRecord: m->rec appears to be already in use for %s
+%2d %s
+%2d TTL%8d %s
+ERROR: Premature end of packet data
+Send
+Receiv
+ERROR %d %sing
+port 
+ to %#a:%d
+Iquery 
+Status 
+Unused3 
+Update 
+Query
+Response
+NoErr
+FormErr
+ServFail
+NXDomain
+NotImpl
+Refused
+YXDomain
+YXRRSet
+NXRRSet
+NotZone
+ (truncated)
+-- %s %s DNS %s%s (flags %02X%02X) RCODE: %s (%d) %s%s%s%s%s%sID: %d %d bytes from %s%d%s%s --
+Zone
+Questions
+%2d %##s %s
+Prerequisites
+Answers
+Updates
+Authorities
+Additionals
+--------------
+NotAuth
+Notify 
+%#a:
+Sent
+Received
+mDNSSendDNSMessage: invalid message %p %p %d
+mDNSSendDNSMessage: putHINFO failed
+mDNSSendDNSMessage: write msg length failed %d/%d
+mDNSSendDNSMessage: write msg body failed %d/%d
+mDNSSendDNSMessage: DNSDigest_SignMessage failed
+mDNSPlatformRawTime went backwards by %ld ticks; setting correction factor to %ld
+mDNS_Lock: m->mDNS_busy is %ld but m->timenow not set
+mDNS_Lock: m->timenow already set (%ld/%ld)
+%s: mDNS_Lock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+ShowTaskSchedulingError
+Task Scheduling Error: Continuously busy for more than a second
+Task Scheduling Error: NewQuestion %##s (%s)
+Task Scheduling Error: NewLocalOnlyQuestions %##s (%s)
+Task Scheduling Error: NewLocalRecords %s
+Task Scheduling Error: m->NextScheduledEvent %d
+Task Scheduling Error: m->SuppressSending %d
+Task Scheduling Error: m->NextCacheCheck %d
+Task Scheduling Error: m->NextScheduledQuery %d
+Task Scheduling Error: m->NextScheduledProbe %d
+Task Scheduling Error: m->NextScheduledResponse %d
+Task Scheduling Error: m->NextScheduledNATOp %d
+Task Scheduling Error: m->NextScheduledSPS %d
+Task Scheduling Error: m->DelaySleep %d
+Task Scheduling Error: NextuDNSEvent %d
+%s: mDNS_Unlock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+Task Scheduling Error: m->NextScheduledSPRetry %d
+mDNS_Unlock: ERROR! m->timenow aready zero
+0123456789ABCDEF
+<< ERROR: Must specify address size (i.e. %.4a=IPv4, %.6a=Ethernet, %.16a=IPv6) >>
+%d.%d.%d.%d
+%02X%02X:%02X%02X:%02X%02X:%02X%02X:%02X%02X:%02X%02X:%02X%02X:%02X%02X
+%02X:%02X:%02X:%02X:%02X:%02X
+ZERO ADDRESS
+<<NAME TOO LONG>>
+<<INVALID LABEL LENGTH %u>>
+<<UNKNOWN FORMAT CONVERSION CODE %%%c>>
+0123456789abcdef
+mDNSPlatformSourceAddrForDest: getsockname failed errno %d (%s)
+mDNSPlatformSourceAddrForDest: connect %#a failed errno %d (%s)
+GetConfigOption: option %s too long
+DomainDiscoveryDisabled
+true
+hostname
+zone
+secret-64
+ERROR: mDNS_SetSecretForDomain returned %d for domain %##s
+ERROR: malformatted config file
+ERROR: Config file exists, but cannot be opened.
+Unknown loglevel %d, assuming LOG_ERR
+b._dns-sd._udp.
+db._dns-sd._udp.
+lb._dns-sd._udp.
+r._dns-sd._udp.
+dr._dns-sd._udp.
+SetNextQueryTime: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+%s: Locking Failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+AnswerLocalQuestionWithLocalAuthRecord
+%s: Unlocking Failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+AnswerAllLocalQuestionsWithLocalAuthRecord ERROR m->CurrentQuestion already set: %##s (%s)
+SameResourceRecordSignature ERROR: r2 is NULL
+SameResourceRecordSignature ERROR: r1 is NULL
+PacketRRMatchesSignature ERROR: authrr is NULL
+PacketRRMatchesSignature ERROR: pktrr is NULL
+AcknowledgeRecord
+mDNS_Register_internal: Shutting down, can't register %s
+mDNS_Register_internal: Diverting record to local-only %s
+Error! Tried to register AuthRecord %p %##s (%s) that's already in the list
+mDNS_Register_internal: ERROR! %##s (%s): rr->DependentOn && RecordType != kDNSRecordTypeUnique
+Attempt to register record with invalid name: %s
+Attempt to register record with invalid rdata: %s
+mDNS_Register_internal: ERROR! %##s (%s): rr->DependentOn->RecordType bad type %X
+mDNS_Register_internal: RecordType must be non-zero %s
+mDNS_Register_internal: TTL must be 1 - 0x7FFFFFFF %s
+Excessive name conflicts (%lu) for %##s (%s); rate limiting in effect
+mDNS_Deregister_internal
+mDNS_Deregister_internal: %s already marked kDNSRecordTypeDeregistering
+mDNS_Deregister_internal: %s already marked kDNSRecordTypeUnregistered
+mDNS_Deregister_internal: Record %p not found in list %s
+DiscardDeregistrations ERROR m->CurrentRecord already set %s
+GetIPFromName: Need six labels in IPv4 reverse mapping name %##s
+GetIPFromName: Need 34 labels in IPv6 reverse mapping name %##s
+in-addr
+arpa
+arpa
+SendARP: No interface with InterfaceID %p found %s
+SendResponses: ERROR: rr->ImmedUnicast still set: %s
+SendResponses put %s
+SendResponses ERROR m->CurrentRecord already set %s
+SendResponses: No active interface to send: %02X %s
+SendResponses exceeded loop limit %d: giving up
+SendResponses: How did we fail to have space for the OPT record (%d/%d/%d/%d) %s
+Can't create NSEC for record %s
+ARP Announcement %d Capturing traffic for H-MAC %.6a I-MAC %.6a %s
+ReconfirmAntecedents: Reconfirming (depth=%d) %s
+SendQueries ERROR m->CurrentQuestion already set: %##s (%s)
+SendQueries ERROR m->CurrentRecord already set %s
+SendQueries:   Put %d answers; No more space for known answers
+SendQueries:   How did we fail to have space for the Update record %s
+SendQueries putting %s
+SendQueries: Why did we generate oversized packet with OPT record %p %p %p (%d/%d/%d/%d) %s
+SendQueries: Should not have more than one question (%d) in a truncated packet
+SendQueries: No active interface to send: %s
+SendQueries: No active interface to send: %##s (%s)
+SendQueries exceeded loop limit %d: giving up
+SendQueries: How did we fail to have space for the OPT record (%d/%d/%d/%d) %s
+<NULL InterfaceID>
+SendQueries ARP Probe %d %s %s
+SendWakeup: No InterfaceID specified
+AnswerCurrentQuestionWithResourceRecord: following CNAME referral for %s
+AnswerCurrentQuestionWithResourceRecord
+CacheRecordDeferredAdd ERROR m->CurrentQuestion already set: %##s (%s)
+CacheRecordAdd: %##s (%s) has %d answers; shedding records to resist DOS attack
+CacheRecordAdd ERROR m->CurrentQuestion already set: %##s (%s)
+CacheRecordAdd: %##s (%s) got immediate answer burst (%d); restarting exponential backoff sequence (%d)
+No cache space: Delivering non-cached result for %##s
+NoCacheAnswer ERROR m->CurrentQuestion already set: %##s (%s)
+CacheRecordRmv ERROR m->CurrentQuestion already set: %##s (%s)
+CacheRecordRmv: Last answer for %##s (%s) expired from cache; will reconfirm antecedents
+CacheRecordRmv ERROR: How can CurrentAnswers already be zero for %p %##s (%s)?
+ERROR: (*cp)->members == mDNSNULL but (*cp)->rrcache_tail != &(*cp)->members)
+CheckCacheExpiration ERROR! Cache already locked!
+AnswerNewQuestion ERROR! Cache already locked!
+AnswerNewQuestion ERROR m->CurrentQuestion already set: %##s (%s)
+AnswerNewQuestion: How is rr->resrec.rroriginalttl %lu <= SecsSinceRcvd %lu for %s %d %d
+AnswerNewQuestion ERROR m->CurrentRecord already set %s
+AnswerNewQuestion: NoAnswer_Fail %##s (%s)
+AnswerNewLocalOnlyQuestion ERROR m->CurrentQuestion already set: %##s (%s)
+AnswerNewLocalOnlyQuestion ERROR m->CurrentRecord already set %s
+GetFreeCacheRR ERROR! Cache already locked!
+RR Cache now using %ld objects
+GetFreeCacheRR: count mismatch: m->rrcache_totalused %lu != m->rrcache_size %lu
+Possible denial-of-service attack in progress: m->rrcache_size %lu; m->rrcache_active %lu
+GetCacheEntity recycled %d records to reduce cache from %d to %d
+GetCacheEntity
+GetCacheGroup: Already have CacheGroup for %##s
+GetCacheGroup: Not finding CacheGroup for %##s
+GetCacheGroup: Failed to allocate name storage for %##s
+GetCacheGroup: Failed to allocate memory for %##s
+mDNS_PurgeCacheResourceRecord: Lock not held! mDNS_busy (%ld) mDNS_reentrancy (%ld)
+mDNS_TimeNow called while holding mDNS lock. This is incorrect. Code protected by lock should just use m->timenow.
+mDNS_TimeNow: m->mDNS_busy is %ld but m->timenow not set
+mDNS_Execute: Removing %d H-MAC %.6a I-MAC %.6a %d %s
+%s: mDNS_Lock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNS_Execute
+mDNS_Execute: ERROR m->CurrentQuestion already set: %##s (%s)
+mDNS_Execute: AnswerNewQuestion exceeded loop limit
+mDNS_Execute: AnswerNewLocalOnlyQuestion exceeded loop limit
+mDNS_Execute: AnswerForNewLocalRecords exceeded loop limit
+%s: mDNS_Unlock locking failure! mDNS_busy (%ld) != mDNS_reentrancy (%ld)
+mDNS_Execute: SendQueries didn't send all its queries (%d - %d = %d) will try again in one second
+mDNS_Execute: SendQueries didn't send all its probes (%d - %d = %d) will try again in one second
+mDNS_Execute: SendResponses didn't send all its responses; will try again in one second
+mDNS_Execute: SendQueries didn't send %##s (%s)
+Re-sleep delay passed; now checking for Sleep Proxy Servers
+mDNSCoreRestartQueries: ERROR m->CurrentQuestion already set: %##s (%s)
+SendSPSRegistration put %s %s
+SendSPSRegistration: Sending Update %s %d (%d) id %5d with %d records %d bytes to %#a:%d
+SendSPSRegistration: mDNSSendDNSMessage err %d
+SendSPSRegistration %d %##s failed to send to IPv6 address; will try IPv4 instead
+SendSPSRegistration: Failed to put OPT record (%d updates) %s
+SendSPSRegistration put %s FAILED %d/%d %s
+SendSPSRegistration: %s SPS %d (%d) %##s not yet resolved
+RetrySPSRegistrations: %s
+NetWakeResolve: SPS: %d Add: %d %s
+NetWakeResolve
+NetWakeResolve: SPS %d %##s has no IPv6 address, will try IPv4 instead
+BeginSleepProcessing: %-6s %#a No Sleep Proxy Server found (Next Browse Q in %d, interval %d)
+BeginSleepProcessing: Not registering with Sleep Proxy Server
+BeginSleepProcessing: %-6s Found Sleep Proxy Server %d TTL %d %s
+BeginSleepProcessing: %-6s not capable of magic packet wakeup
+BeginSleepProcessing: No advertised services
+BeginSleepProcessing: m->SystemWakeOnLANEnabled is false
+mDNSCoreMachineSleep
+Sleeping
+Waking
+%s (old state %d) at %ld
+mDNSCoreMachineSleep: Re-sleeping immediately after waking; will delay for %d ticks
+mDNSCoreMachineSleep: m->SleepState %d (%s) seq %d
+Transferring
+WakeServiceRegistrations %d %d
+mDNSCoreMachineSleep: retryGetAddr in %d %d
+mDNSCoreReadyForSleep
+ReadyForSleep retrying SPS %s %d
+ReadyForSleep waiting for Record Update ID %d %s
+ReadyForSleep waiting for LLQ %##s (%s)
+ReadyForSleep waiting for SPS Update ID %d %s
+Failed to register with SPS, now sending goodbyes
+ReadyForSleep mDNS_DeactivateNetWake %s %##s (%s)
+ReadyForSleep clearing updateid for %s
+ReadyForSleep waiting for SPS Resolve %s %##s (%s)
+ComputeWakeTime: %p %s Int %5d Ext %5d Err %d Retry %5d Interval %5d Expire %5d Wake %5d
+ComputeWakeTime: %p Int %7d Next %7d Expire %7d Wake %7d %s
+GenerateUnicastResponse: ERROR! Why no questions?
+CompareRData ERROR: Invalid state
+CompareRData ERROR: pkt is NULL
+CompareRData ERROR: our is NULL
+lost:
+tie: 
+won: 
+ResolveSimultaneousProbe: Pkt Record:        %08lX %s
+ResolveSimultaneousProbe: Our Record %d %s %08lX %s
+ResolveSimultaneousProbe: %##s (%s): No Update Record found
+ClearProxyRecords: Removing %3d H-MAC %.6a I-MAC %.6a %d %d %s
+ProcessQuery ERROR m->CurrentRecord already set %s
+y,  
+ies,
+Ignoring Query from %#-15a:%-5d to %#-15a:%-5d on 0x%p with %2d Question%s %2d Answer%s %2d Authorit%s %2d Additional%s (Multicast, but no InterfaceID)
+WARNING: Ignoring suspect uDNS response for %##s (%s) [q->Target %#a:%d] from %#a:%d %s
+rr->resrec.rdata == &rr->rdatastorage but length > InlineCacheRDSize %##s
+rr->resrec.rdata != &rr->rdatastorage but length <= InlineCacheRDSize %##s
+local
+Not generating negative cache entry for %##s (%s)
+Correcting TTL from %4d to %4d for %s
+mDNSCoreReceiveResponse ERROR m->CurrentRecord already set %s
+mDNSCoreReceiveResponse: Pkt Record: %08lX %s
+mDNSCoreReceiveResponse: Our Record: %08lX %s
+mDNSCoreReceiveResponse: Dep Record: %08lX %s
+mDNSCoreReceiveResponse: Already reset to Probing: %s
+mDNSCoreReceiveResponse: Ignoring response received before we even began probing: %s
+mDNSCoreReceiveResponse: Received from %#a:%d %s
+mDNSCoreReceiveResponse: Unexpected record type %X %s
+mDNSCoreReceiveResponse: Unexpected conflict discarding %s
+mDNSCoreReceiveResponse: ProbeCount %d; will rename %s
+mDNSCoreReceiveResponse: Reseting to Probing: %s
+mDNSCoreReceiveResponse: CNAME loop domain name %##s
+Server %p responded with code %d to query %##s (%s)
+Ignoring %2d Answer%s %2d Authorit%s %2d Additional%s
+SPS Callback %d %s
+Received Conflicting mDNS -- waking %s %.6a %s
+Received Update from %#-15a:%-5d to %#-15a:%-5d on 0x%p with %2d Question%s %2d Answer%s %2d Authorit%s %2d Additional%s
+Refusing sleep proxy registration from %#a:%d: Too many records %d + %d = %d > %d
+Received Update for H-MAC %.6a I-MAC %.6a Password %.6a seq %d
+SPS Registered %4d %X %s
+Refusing sleep proxy registration from %#a:%d: Out of memory
+ No lease
+ No owner
+Refusing sleep proxy registration from %#a:%d:%s%s
+Sleep Proxy registered record %5d %s
+Sleep Proxy granted lease time %4d seconds
+MakeNegativeCacheRecord: m->rec appears to be already in use for %s
+DNS Message from %#a:%d to %#a:%d length %d too short
+mDNSCoreReceive
+Unknown DNS packet type %02X%02X from %#-15a:%-5d to %#-15a:%-5d length %d on %p (ignored)
+%04X
+ %02X
+mDNSCoreReceive ERROR m is NULL
+UpdateQuestionDuplicates transferred nta pointer for %##s (%s)
+UpdateQuestionDuplicates did not transfer tcp pointer
+UpdateQuestionDuplicates transferred LLQ state for %##s (%s)
+GetServerForName: DNS Server is marked delete, cannot happen
+PenaltyTimeForServer: PenaltyTime negative %d, (server penaltyTime %d, timenow %d) resetting the penalty
+GetServerForName: Good DNS server %#a:%d (Penalty Time Left %d) found
+GetServerForName: DNS server %#a:%d (Penalty Time Left %d) found
+GetServerForName: no DNS server found
+LLQNATCallback
+LLQNATCallback external address:port %.4a:%u
+Warning! Target.type = %ld port = %u (Client forgot to initialize before calling mDNS_StartQuery?)
+Attempt to start query with invalid qname %##s (%s)
+Error! Tried to add a question %##s (%s) %p that's already in the active list
+Note: InterfaceID %p for question %##s (%s) not currently found in active interface list
+mDNS_StopQuery_internal: Question %##s (%s) not found in active list
+Stopping LLQNAT
+mDNS_StopQuery ERROR LLQNAT.clientContext NULL
+mDNS_StartQuery
+mDNS_StopQuery
+mDNS_StopQueryWithRemoves
+Generating terminal removes for %##s (%s)
+mDNS_Reconfirm
+mDNS_ReconfirmByValue
+mDNS_StartBrowse
+mDNS_StartResolveService
+mDNS_StopResolveService
+mDNS_Register
+mDNS_Update
+_ichat
+Excessive update rate for %##s; delaying announcement by %ld second%s
+Attempt to update record with invalid rdata: %s
+mDNS_Deregister
+0123456789ABCDEF
+ip6.arpa.
+%d.%d.%d.%d.in-addr.arpa.
+local
+mDNS_SetFQDN
+ERROR: mDNS_SetFQDN: Cannot create MulticastHostname
+mDNS_HostNameCallback: Unknown error %d for registration of record %s
+Local Hostname %#s.local already in use; will try %#s.local instead
+ActivateNetWake for %s (%#a)
+_sleep-proxy
+_udp
+mDNS_ActivateNetWake_internal: NetworkInterfaceInfo %p not found in active list
+DeactivateNetWake for %s (%#a)
+mDNS_DeactivateNetWake_internal: NetworkInterfaceInfo %p not found in active list
+Error! Tried to register a NetworkInterfaceInfo %#a with invalid mask %#a
+mDNS_RegisterInterface
+not represented in list; marking active and retriggering queries
+already represented in list; marking inactive for now
+mDNS_RegisterInterface: InterfaceID %p %s (%#a) %s
+RegisterInterface: Frequent transitions for interface %s (%#a)
+No cache records expired for %##s (%s); okay to delay questions a little
+Error! Tried to register a NetworkInterfaceInfo that's already in the list
+Error! Tried to register a NetworkInterfaceInfo %#a with zero InterfaceID
+mDNS_DeregisterInterface
+mDNS_DeregisterInterface: Another representative of InterfaceID %p %s (%#a) exists; making it active
+mDNS_DeregisterInterface: ERROR intf->InterfaceActive already set for %s (%#a)
+mDNS_DeregisterInterface: Last representative of InterfaceID %p %s (%#a) deregistered; marking questions etc. dormant
+DeregisterInterface: Frequent transitions for interface %s (%#a)
+ServiceCallback ERROR Got mStatus_MemFree with srs_nta still set for %s
+uDNS_RegisterService: %p %##s already in list
+uDNS_RegisterService - no target for %##s
+_services
+_dns-sd
+_udp
+mDNS_RegisterService
+DummyCallback %d %s
+mDNS_AddRecordToService
+mDNS_RemoveRecordFromService
+mDNS_DeregisterService
+ARP Req from owner -- re-probing
+Ignoring  ARP Request from      
+Creating Local ARP Cache entry  
+Answering ARP Request from      
+Received
+Ignoring
+%s %d-byte IP packet unknown protocol %d from %.4a to %.4a
+mDNSCoreReceiveRawPacket
+_udp
+_tcp
+Waking host at %s %.4a H-MAC %.6a I-MAC %.6a for %s
+Sleeping host at %s %.4a %.6a has no service on %#s %d
+%s %d-byte ICMP from %.4a to %.4a
+%s %d-byte UDP from %.4a:%d to %.4a:%d
+%s %d-byte IKE ExchangeType %d
+ SYN
+ FIN
+ RST
+%s %d-byte TCP from %.4a:%d to %.4a:%d%s%s%s
+%-7s Conflicting ARP from %.6a %.4a for %.4a -- waking H-MAC %.6a I-MAC %.6a %s
+Response    
+Request     
+%-7s ARP %s from owner %.6a %.4a for %-15.4a -- re-starting probing for %s
+Announcement
+%-7s %s %.6a %.4a for %.4a -- H-MAC %.6a I-MAC %.6a %s
+%d-%d-%d-%d %#s
+Sleep Proxy Server %#s %s
+started
+stopped
+mDNSCoreBeSleepProxyServer: Failed to allocate SPSSocket
+mDNS_GrowCache
+Renaming SPS from 
+ to 
+uDNS_SetupDNSConfig
+DNS server became
+No DNS servers
+uDNS_SetupDNSConfig: %s available; purged %d unicast DNS records from cache
+mDNSCoreInitComplete
+DeregLoop: Deregistering %p %02X %s
+mDNS_StartExit
+mDNS_StartExit: ERROR m->CurrentRecord already set %s
+mDNS_StartExit: Deregistering duplicate resource records
+mDNS_StartExit: Deregistering resource records
+mDNS_StartExit: Deregistering uDNS service %##s
+mDNS_StartExit: Sending final record deregistrations
+mDNS_StartExit: Sending final uDNS service deregistrations
+mDNS_StartExit: Should not still have Duplicate Records remaining: %02X %s
+mDNS_StartExit: done
+mDNS_StartExit: No deregistering uDNS services remain
+mDNS_StartExit: No deregistering records remain
+mDNS_FinalExit: mDNSPlatformClose
+*** ERROR *** rrcache_active %lu != m->rrcache_active %lu
+mDNS_FinalExit failed to send goodbye for: %p %02X %s
+mDNS_FinalExit failed to deregister service: %p %##s
+mDNS_FinalExit: done
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+hmac-md5
+sig-alg
+ERROR: DNSDigest_SignMessage - could not put TSIG
+ERROR: DNSDigest_SignMessage - mDNSPlatformUTC returned bad time -1
+ERROR: DNSDigest_VerifyMessage - time skew > %d
+ERROR: DNSDigest_VerifyMessage - bad signature
+ERROR: DNSDigest_VerifyMessage - mDNSPlatformUTC returned bad time -1
+ERROR: DNSDigest_VerifyMessage - TSIG algorithm not supported: %##s
+s23_clnt.c
+SSLv2/3 compatibility part of OpenSSL 0.9.7g 11 Apr 2005
+s23_lib.c
+t1_clnt.c
+TLSv1 part of OpenSSL 0.9.7g 11 Apr 2005
+client finished
+server finished
+t1_enc.c
+client write key
+IV block
+server write key
+key expansion
+master secret
+OpenSSL 0.9.7g 11 Apr 2005
+ssl_lib.c
+s->sid_ctx_length <= sizeof s->sid_ctx
+ALL:!ADH:+RC4:@STRENGTH
+ssl2-md5
+ssl3-md5
+ssl3-sha1
+TLSv1
+SSLv3
+unknown
+SSLv2
+ssl_cert.c
+SSL for verify callback
+%s/%s
+opendir('
+ssl_sess.c
+COMPLEMENTOFALL
+COMPLEMENTOFDEFAULT
+kKRB5
+kRSA
+kDHr
+kDHd
+kEDH
+kFZA
+aKRB5
+aRSA
+aDSS
+aFZA
+aNULL
+3DES
+IDEA
+eNULL
+eFZA
+SHA1
+NULL
+KRB5
+SSLv2
+SSLv3
+TLSv1
+EXPORT
+EXPORT40
+EXPORT56
+MEDIUM
+HIGH
+FIPS
+DES-CBC
+DES-EDE3-CBC
+RC2-CBC
+IDEA-CBC
+AES-128-CBC
+AES-256-CBC
+ssl_ciph.c
+STRENGTH
+DEFAULT
+ALL:!ADH:+RC4:@STRENGTH
+%-23s %s Kx=%-8s Au=%-4s Enc=%-9s Mac=%-4s%s
+ export
+unknown
+Fortezza
+DH/RSA
+3DES(168)
+Buffer too small
+OPENSSL_malloc Error
+DES(56)
+DES(40)
+RC4(56)
+RC4(40)
+RC4(128)
+RC4(64)
+IDEA(128)
+None
+AES(192)
+AES(128)
+AES(???)
+AES(256)
+RC2(56)
+RC2(40)
+RC2(128)
+RSA(1024)
+RSA(512)
+DH/DSS
+DH(1024)
+DH(512)
+(NONE)
+TLSv1/SSLv3
+ssl2-md5
+ssl3-md5
+SHA1
+ssl3-sha1
+DSA-SHA1
+RSA-SHA1
+RSA-SHA1-2
+DSA-SHA1-old
+DSS1
+dss1
+s2_clnt.c
+SSLv2 part of OpenSSL 0.9.7g 11 Apr 2005
+EXP-RC4-MD5
+RC4-MD5
+EXP-RC2-CBC-MD5
+RC2-CBC-MD5
+IDEA-CBC-MD5
+DES-CBC-MD5
+DES-CBC3-MD5
+RC4-64-MD5
+s2_lib.c
+s->session->master_key_length >= 0 && s->session->master_key_length < sizeof s->session->master_key
+error >= 0 && error <= sizeof buf
+s2_enc.c
+s->s2->key_material_length <= sizeof s->s2->key_material
+c->iv_len <= sizeof s->session->key_arg
+s2_pkt.c
+mac_size <= MAX_MAC_SIZE
+s3_clnt.c
+SSLv3 part of OpenSSL 0.9.7g 11 Apr 2005
+NULL-MD5
+NULL-SHA
+EXP-ADH-RC4-MD5
+ADH-RC4-MD5
+EXP-ADH-DES-CBC-SHA
+ADH-DES-CBC-SHA
+ADH-DES-CBC3-SHA
+EXP-RC4-MD5
+RC4-MD5
+RC4-SHA
+EXP-RC2-CBC-MD5
+IDEA-CBC-SHA
+EXP-DES-CBC-SHA
+DES-CBC-SHA
+DES-CBC3-SHA
+EXP-DH-DSS-DES-CBC-SHA
+DH-DSS-DES-CBC-SHA
+DH-DSS-DES-CBC3-SHA
+EXP-DH-RSA-DES-CBC-SHA
+DH-RSA-DES-CBC-SHA
+DH-RSA-DES-CBC3-SHA
+EXP-EDH-DSS-DES-CBC-SHA
+EDH-DSS-DES-CBC-SHA
+EDH-DSS-DES-CBC3-SHA
+EXP-EDH-RSA-DES-CBC-SHA
+EDH-RSA-DES-CBC-SHA
+EDH-RSA-DES-CBC3-SHA
+FZA-NULL-SHA
+FZA-FZA-CBC-SHA
+EXP1024-RC4-MD5
+EXP1024-RC2-CBC-MD5
+EXP1024-DES-CBC-SHA
+EXP1024-DHE-DSS-DES-CBC-SHA
+EXP1024-RC4-SHA
+EXP1024-DHE-DSS-RC4-SHA
+DHE-DSS-RC4-SHA
+AES128-SHA
+DH-DSS-AES128-SHA
+DH-RSA-AES128-SHA
+DHE-DSS-AES128-SHA
+DHE-RSA-AES128-SHA
+ADH-AES128-SHA
+AES256-SHA
+DH-DSS-AES256-SHA
+DH-RSA-AES256-SHA
+DHE-DSS-AES256-SHA
+DHE-RSA-AES256-SHA
+ADH-AES256-SHA
+CLNT
+SRVR
+s3_lib.c
+s3_enc.c
+s3_pkt.c
+SSL alert number 
+s3_both.c
+ssl_rsa.c
+<<ERROR>>
+ex_data
+x509
+x509_info
+x509_pkey
+x509_crl
+x509_req
+evp_pkey
+x509_store
+ssl_ctx
+ssl_cert
+ssl_session
+ssl_sess_cert
+ssl_method
+rand
+rand2
+debug_malloc
+gethostbyname
+getservbyname
+readdir
+RSA_blinding
+debug_malloc2
+dynlock
+engine
+hwcrhk
+fips
+fips2
+cryptlib.c
+pointer != NULL
+dynamic
+ERROR
+%s(%d): OpenSSL internal error, assertion failed: %s
+mem.c
+mem_dbg.c
+[%02d:%02d:%02d] 
+%5lu file=%s, line=%d, 
+thread=%lu, 
+number=%d, address=%08lX
+ thread=%lu, file=%s, line=%d, info="
+%ld bytes leaked in %d chunks
+ex_data.c
+o_names.c
+UNDEF
+undefined
+rsadsi
+RSA Data Security, Inc.
+pkcs
+RSA Data Security, Inc. PKCS
+rsaEncryption
+RSA-MD2
+md2WithRSAEncryption
+RSA-MD5
+md5WithRSAEncryption
+PBE-MD2-DES
+pbeWithMD2AndDES-CBC
+PBE-MD5-DES
+pbeWithMD5AndDES-CBC
+X500
+directory services (X.500)
+X509
+commonName
+countryName
+localityName
+stateOrProvinceName
+organizationName
+organizationalUnitName
+pkcs7
+pkcs7-data
+pkcs7-signedData
+pkcs7-envelopedData
+pkcs7-signedAndEnvelopedData
+pkcs7-digestData
+pkcs7-encryptedData
+pkcs3
+dhKeyAgreement
+DES-ECB
+des-ecb
+DES-CFB
+des-cfb
+DES-CBC
+des-cbc
+DES-EDE
+des-ede
+DES-EDE3
+des-ede3
+IDEA-CBC
+idea-cbc
+IDEA-CFB
+idea-cfb
+IDEA-ECB
+idea-ecb
+RC2-CBC
+rc2-cbc
+RC2-ECB
+rc2-ecb
+RC2-CFB
+rc2-cfb
+RC2-OFB
+rc2-ofb
+RSA-SHA
+shaWithRSAEncryption
+DES-EDE-CBC
+des-ede-cbc
+DES-EDE3-CBC
+des-ede3-cbc
+DES-OFB
+des-ofb
+IDEA-OFB
+idea-ofb
+pkcs9
+emailAddress
+unstructuredName
+contentType
+messageDigest
+signingTime
+countersignature
+challengePassword
+unstructuredAddress
+extendedCertificateAttributes
+Netscape
+Netscape Communications Corp.
+nsCertExt
+Netscape Certificate Extension
+nsDataType
+Netscape Data Type
+DES-EDE-CFB
+des-ede-cfb
+DES-EDE3-CFB
+des-ede3-cfb
+DES-EDE-OFB
+des-ede-ofb
+DES-EDE3-OFB
+des-ede3-ofb
+SHA1
+sha1
+RSA-SHA1
+sha1WithRSAEncryption
+DSA-SHA
+dsaWithSHA
+DSA-old
+dsaEncryption-old
+PBE-SHA1-RC2-64
+pbeWithSHA1AndRC2-CBC
+PBKDF2
+DSA-SHA1-old
+dsaWithSHA1-old
+nsCertType
+Netscape Cert Type
+nsBaseUrl
+Netscape Base Url
+nsRevocationUrl
+Netscape Revocation Url
+nsCaRevocationUrl
+Netscape CA Revocation Url
+nsRenewalUrl
+Netscape Renewal Url
+nsCaPolicyUrl
+Netscape CA Policy Url
+nsSslServerName
+Netscape SSL Server Name
+nsComment
+Netscape Comment
+nsCertSequence
+Netscape Certificate Sequence
+DESX-CBC
+desx-cbc
+id-ce
+subjectKeyIdentifier
+X509v3 Subject Key Identifier
+keyUsage
+X509v3 Key Usage
+privateKeyUsagePeriod
+X509v3 Private Key Usage Period
+subjectAltName
+X509v3 Subject Alternative Name
+issuerAltName
+X509v3 Issuer Alternative Name
+basicConstraints
+X509v3 Basic Constraints
+crlNumber
+X509v3 CRL Number
+certificatePolicies
+X509v3 Certificate Policies
+authorityKeyIdentifier
+X509v3 Authority Key Identifier
+BF-CBC
+bf-cbc
+BF-ECB
+bf-ecb
+BF-CFB
+bf-cfb
+BF-OFB
+bf-ofb
+MDC2
+mdc2
+RSA-MDC2
+mdc2WithRSA
+RC4-40
+rc4-40
+RC2-40-CBC
+rc2-40-cbc
+givenName
+surname
+initials
+crlDistributionPoints
+X509v3 CRL Distribution Points
+RSA-NP-MD5
+md5WithRSA
+serialNumber
+title
+description
+CAST5-CBC
+cast5-cbc
+CAST5-ECB
+cast5-ecb
+CAST5-CFB
+cast5-cfb
+CAST5-OFB
+cast5-ofb
+pbeWithMD5AndCast5CBC
+DSA-SHA1
+dsaWithSHA1
+MD5-SHA1
+md5-sha1
+RSA-SHA1-2
+sha1WithRSA
+dsaEncryption
+RIPEMD160
+ripemd160
+RSA-RIPEMD160
+ripemd160WithRSA
+RC5-CBC
+rc5-cbc
+RC5-ECB
+rc5-ecb
+RC5-CFB
+rc5-cfb
+RC5-OFB
+rc5-ofb
+run length compression
+ZLIB
+zlib compression
+extendedKeyUsage
+X509v3 Extended Key Usage
+PKIX
+id-kp
+serverAuth
+TLS Web Server Authentication
+clientAuth
+TLS Web Client Authentication
+codeSigning
+Code Signing
+emailProtection
+E-mail Protection
+timeStamping
+Time Stamping
+msCodeInd
+Microsoft Individual Code Signing
+msCodeCom
+Microsoft Commercial Code Signing
+msCTLSign
+Microsoft Trust List Signing
+msSGC
+Microsoft Server Gated Crypto
+msEFS
+Microsoft Encrypted File System
+nsSGC
+Netscape Server Gated Crypto
+deltaCRL
+X509v3 Delta CRL Indicator
+CRLReason
+X509v3 CRL Reason Code
+invalidityDate
+Invalidity Date
+SXNetID
+Strong Extranet ID
+PBE-SHA1-RC4-128
+pbeWithSHA1And128BitRC4
+PBE-SHA1-RC4-40
+pbeWithSHA1And40BitRC4
+PBE-SHA1-3DES
+pbeWithSHA1And3-KeyTripleDES-CBC
+PBE-SHA1-2DES
+pbeWithSHA1And2-KeyTripleDES-CBC
+PBE-SHA1-RC2-128
+pbeWithSHA1And128BitRC2-CBC
+PBE-SHA1-RC2-40
+pbeWithSHA1And40BitRC2-CBC
+keyBag
+pkcs8ShroudedKeyBag
+certBag
+crlBag
+secretBag
+safeContentsBag
+friendlyName
+localKeyID
+x509Certificate
+sdsiCertificate
+x509Crl
+PBES2
+PBMAC1
+hmacWithSHA1
+id-qt-cps
+Policy Qualifier CPS
+id-qt-unotice
+Policy Qualifier User Notice
+RC2-64-CBC
+rc2-64-cbc
+SMIME-CAPS
+S/MIME Capabilities
+PBE-MD2-RC2-64
+pbeWithMD2AndRC2-CBC
+PBE-MD5-RC2-64
+pbeWithMD5AndRC2-CBC
+PBE-SHA1-DES
+pbeWithSHA1AndDES-CBC
+msExtReq
+Microsoft Extension Request
+extReq
+Extension Request
+name
+dnQualifier
+id-pe
+id-ad
+authorityInfoAccess
+Authority Information Access
+OCSP
+caIssuers
+CA Issuers
+OCSPSigning
+OCSP Signing
+member-body
+ISO Member Body
+ISO-US
+ISO US Member Body
+X9-57
+X9.57
+X9cm
+X9.57 CM ?
+pkcs1
+pkcs5
+SMIME
+S/MIME
+id-smime-mod
+id-smime-ct
+id-smime-aa
+id-smime-alg
+id-smime-cd
+id-smime-spq
+id-smime-cti
+id-smime-mod-cms
+id-smime-mod-ess
+id-smime-mod-oid
+id-smime-mod-msg-v3
+id-smime-mod-ets-eSignature-88
+id-smime-mod-ets-eSignature-97
+id-smime-mod-ets-eSigPolicy-88
+id-smime-mod-ets-eSigPolicy-97
+id-smime-ct-receipt
+id-smime-ct-authData
+id-smime-ct-publishCert
+id-smime-ct-TSTInfo
+id-smime-ct-TDTInfo
+id-smime-ct-contentInfo
+id-smime-ct-DVCSRequestData
+id-smime-ct-DVCSResponseData
+id-smime-aa-receiptRequest
+id-smime-aa-securityLabel
+id-smime-aa-mlExpandHistory
+id-smime-aa-contentHint
+id-smime-aa-msgSigDigest
+id-smime-aa-encapContentType
+id-smime-aa-contentIdentifier
+id-smime-aa-macValue
+id-smime-aa-equivalentLabels
+id-smime-aa-contentReference
+id-smime-aa-encrypKeyPref
+id-smime-aa-signingCertificate
+id-smime-aa-smimeEncryptCerts
+id-smime-aa-timeStampToken
+id-smime-aa-ets-sigPolicyId
+id-smime-aa-ets-commitmentType
+id-smime-aa-ets-signerLocation
+id-smime-aa-ets-signerAttr
+id-smime-aa-ets-otherSigCert
+id-smime-aa-ets-contentTimestamp
+id-smime-aa-ets-CertificateRefs
+id-smime-aa-ets-RevocationRefs
+id-smime-aa-ets-certValues
+id-smime-aa-ets-revocationValues
+id-smime-aa-ets-escTimeStamp
+id-smime-aa-ets-certCRLTimestamp
+id-smime-aa-ets-archiveTimeStamp
+id-smime-aa-signatureType
+id-smime-aa-dvcs-dvc
+id-smime-alg-ESDHwith3DES
+id-smime-alg-ESDHwithRC2
+id-smime-alg-3DESwrap
+id-smime-alg-RC2wrap
+id-smime-alg-ESDH
+id-smime-alg-CMS3DESwrap
+id-smime-alg-CMSRC2wrap
+id-smime-cd-ldap
+id-smime-spq-ets-sqt-uri
+id-smime-spq-ets-sqt-unotice
+id-smime-cti-ets-proofOfOrigin
+id-smime-cti-ets-proofOfReceipt
+id-smime-cti-ets-proofOfDelivery
+id-smime-cti-ets-proofOfSender
+id-smime-cti-ets-proofOfApproval
+id-smime-cti-ets-proofOfCreation
+id-pkix-mod
+id-qt
+id-it
+id-pkip
+id-alg
+id-cmc
+id-on
+id-pda
+id-aca
+id-qcs
+id-cct
+id-pkix1-explicit-88
+id-pkix1-implicit-88
+id-pkix1-explicit-93
+id-pkix1-implicit-93
+id-mod-crmf
+id-mod-cmc
+id-mod-kea-profile-88
+id-mod-kea-profile-93
+id-mod-cmp
+id-mod-qualified-cert-88
+id-mod-qualified-cert-93
+id-mod-attribute-cert
+id-mod-timestamp-protocol
+id-mod-ocsp
+id-mod-dvcs
+id-mod-cmp2000
+biometricInfo
+Biometric Info
+qcStatements
+ac-auditEntity
+ac-targeting
+aaControls
+sbqp-ipAddrBlock
+sbqp-autonomousSysNum
+sbqp-routerIdentifier
+textNotice
+ipsecEndSystem
+IPSec End System
+ipsecTunnel
+IPSec Tunnel
+ipsecUser
+IPSec User
+DVCS
+dvcs
+id-it-caProtEncCert
+id-it-signKeyPairTypes
+id-it-encKeyPairTypes
+id-it-preferredSymmAlg
+id-it-caKeyUpdateInfo
+id-it-currentCRL
+id-it-unsupportedOIDs
+id-it-subscriptionRequest
+id-it-subscriptionResponse
+id-it-keyPairParamReq
+id-it-keyPairParamRep
+id-it-revPassphrase
+id-it-implicitConfirm
+id-it-confirmWaitTime
+id-it-origPKIMessage
+id-regCtrl
+id-regInfo
+id-regCtrl-regToken
+id-regCtrl-authenticator
+id-regCtrl-pkiPublicationInfo
+id-regCtrl-pkiArchiveOptions
+id-regCtrl-oldCertID
+id-regCtrl-protocolEncrKey
+id-regInfo-utf8Pairs
+id-regInfo-certReq
+id-alg-des40
+id-alg-noSignature
+id-alg-dh-sig-hmac-sha1
+id-alg-dh-pop
+id-cmc-statusInfo
+id-cmc-identification
+id-cmc-identityProof
+id-cmc-dataReturn
+id-cmc-transactionId
+id-cmc-senderNonce
+id-cmc-recipientNonce
+id-cmc-addExtensions
+id-cmc-encryptedPOP
+id-cmc-decryptedPOP
+id-cmc-lraPOPWitness
+id-cmc-getCert
+id-cmc-getCRL
+id-cmc-revokeRequest
+id-cmc-regInfo
+id-cmc-responseInfo
+id-cmc-queryPending
+id-cmc-popLinkRandom
+id-cmc-popLinkWitness
+id-cmc-confirmCertAcceptance
+id-on-personalData
+id-pda-dateOfBirth
+id-pda-placeOfBirth
+id-pda-gender
+id-pda-countryOfCitizenship
+id-pda-countryOfResidence
+id-aca-authenticationInfo
+id-aca-accessIdentity
+id-aca-chargingIdentity
+id-aca-group
+id-aca-role
+id-qcs-pkixQCSyntax-v1
+id-cct-crs
+id-cct-PKIData
+id-cct-PKIResponse
+ad_timestamping
+AD Time Stamping
+AD_DVCS
+ad dvcs
+basicOCSPResponse
+Basic OCSP Response
+Nonce
+OCSP Nonce
+CrlID
+OCSP CRL ID
+acceptableResponses
+Acceptable OCSP Responses
+noCheck
+OCSP No Check
+archiveCutoff
+OCSP Archive Cutoff
+serviceLocator
+OCSP Service Locator
+extendedStatus
+Extended OCSP Status
+valid
+path
+trustRoot
+Trust Root
+algorithm
+rsaSignature
+X500algorithms
+directory services - algorithms
+IANA
+iana
+directory
+Directory
+mgmt
+Management
+experimental
+Experimental
+private
+Private
+security
+Security
+snmpv2
+SNMPv2
+Mail
+enterprises
+Enterprises
+dcobject
+dcObject
+domainComponent
+domain
+Domain
+JOINT-ISO-CCITT
+joint-iso-ccitt
+selected-attribute-types
+Selected Attribute Types
+clearance
+RSA-MD4
+md4WithRSAEncryption
+ac-proxying
+subjectInfoAccess
+Subject Information Access
+id-aca-encAttrs
+role
+policyConstraints
+X509v3 Policy Constraints
+targetInformation
+X509v3 AC Targeting
+noRevAvail
+X509v3 No Revocation Available
+CCITT
+ccitt
+ansi-X9-62
+ANSI X9.62
+prime-field
+characteristic-two-field
+id-ecPublicKey
+prime192v1
+prime192v2
+prime192v3
+prime239v1
+prime239v2
+prime239v3
+prime256v1
+ecdsa-with-SHA1
+CSPName
+Microsoft CSP Name
+AES-128-ECB
+aes-128-ecb
+AES-128-CBC
+aes-128-cbc
+AES-128-OFB
+aes-128-ofb
+AES-128-CFB
+aes-128-cfb
+AES-192-ECB
+aes-192-ecb
+AES-192-CBC
+aes-192-cbc
+AES-192-OFB
+aes-192-ofb
+AES-192-CFB
+aes-192-cfb
+AES-256-ECB
+aes-256-ecb
+AES-256-CBC
+aes-256-cbc
+AES-256-OFB
+aes-256-ofb
+AES-256-CFB
+aes-256-cfb
+holdInstructionCode
+Hold Instruction Code
+holdInstructionNone
+Hold Instruction None
+holdInstructionCallIssuer
+Hold Instruction Call Issuer
+holdInstructionReject
+Hold Instruction Reject
+data
+pilot
+pilotAttributeType
+pilotAttributeSyntax
+pilotObjectClass
+pilotGroups
+iA5StringSyntax
+caseIgnoreIA5StringSyntax
+pilotObject
+pilotPerson
+account
+document
+room
+documentSeries
+rFC822localPart
+dNSDomain
+domainRelatedObject
+friendlyCountry
+simpleSecurityObject
+pilotOrganization
+pilotDSA
+qualityLabelledData
+userId
+textEncodedORAddress
+mail
+rfc822Mailbox
+info
+favouriteDrink
+roomNumber
+photo
+userClass
+host
+manager
+documentIdentifier
+documentTitle
+documentVersion
+documentAuthor
+documentLocation
+homeTelephoneNumber
+secretary
+otherMailbox
+lastModifiedTime
+lastModifiedBy
+aRecord
+pilotAttributeType27
+mXRecord
+nSRecord
+sOARecord
+cNAMERecord
+associatedDomain
+associatedName
+homePostalAddress
+personalTitle
+mobileTelephoneNumber
+pagerTelephoneNumber
+friendlyCountryName
+organizationalStatus
+janetMailbox
+mailPreferenceOption
+buildingName
+dSAQuality
+singleLevelQuality
+subtreeMinimumQuality
+subtreeMaximumQuality
+personalSignature
+dITRedirect
+audio
+documentPublisher
+x500UniqueIdentifier
+mime-mhs
+MIME MHS
+mime-mhs-headings
+mime-mhs-bodies
+id-hex-partial-message
+id-hex-multipart-message
+generationQualifier
+pseudonym
+id-set
+Secure Electronic Transactions
+set-ctype
+content types
+set-msgExt
+message extensions
+set-attr
+set-policy
+set-certExt
+certificate extensions
+set-brand
+setct-PANData
+setct-PANToken
+setct-PANOnly
+setct-OIData
+setct-PI
+setct-PIData
+setct-PIDataUnsigned
+setct-HODInput
+setct-AuthResBaggage
+setct-AuthRevReqBaggage
+setct-AuthRevResBaggage
+setct-CapTokenSeq
+setct-PInitResData
+setct-PI-TBS
+setct-PResData
+setct-AuthReqTBS
+setct-AuthResTBS
+setct-AuthResTBSX
+setct-AuthTokenTBS
+setct-CapTokenData
+setct-CapTokenTBS
+setct-AcqCardCodeMsg
+setct-AuthRevReqTBS
+setct-AuthRevResData
+setct-AuthRevResTBS
+setct-CapReqTBS
+setct-CapReqTBSX
+setct-CapResData
+setct-CapRevReqTBS
+setct-CapRevReqTBSX
+setct-CapRevResData
+setct-CredReqTBS
+setct-CredReqTBSX
+setct-CredResData
+setct-CredRevReqTBS
+setct-CredRevReqTBSX
+setct-CredRevResData
+setct-PCertReqData
+setct-PCertResTBS
+setct-BatchAdminReqData
+setct-BatchAdminResData
+setct-CardCInitResTBS
+setct-MeAqCInitResTBS
+setct-RegFormResTBS
+setct-CertReqData
+setct-CertReqTBS
+setct-CertResData
+setct-CertInqReqTBS
+setct-ErrorTBS
+setct-PIDualSignedTBE
+setct-PIUnsignedTBE
+setct-AuthReqTBE
+setct-AuthResTBE
+setct-AuthResTBEX
+setct-AuthTokenTBE
+setct-CapTokenTBE
+setct-CapTokenTBEX
+setct-AcqCardCodeMsgTBE
+setct-AuthRevReqTBE
+setct-AuthRevResTBE
+setct-AuthRevResTBEB
+setct-CapReqTBE
+setct-CapReqTBEX
+setct-CapResTBE
+setct-CapRevReqTBE
+setct-CapRevReqTBEX
+setct-CapRevResTBE
+setct-CredReqTBE
+setct-CredReqTBEX
+setct-CredResTBE
+setct-CredRevReqTBE
+setct-CredRevReqTBEX
+setct-CredRevResTBE
+setct-BatchAdminReqTBE
+setct-BatchAdminResTBE
+setct-RegFormReqTBE
+setct-CertReqTBE
+setct-CertReqTBEX
+setct-CertResTBE
+setct-CRLNotificationTBS
+setct-CRLNotificationResTBS
+setct-BCIDistributionTBS
+setext-genCrypt
+generic cryptogram
+setext-miAuth
+merchant initiated auth
+setext-pinSecure
+setext-pinAny
+setext-track2
+setext-cv
+additional verification
+set-policy-root
+setCext-hashedRoot
+setCext-certType
+setCext-merchData
+setCext-cCertRequired
+setCext-tunneling
+setCext-setExt
+setCext-setQualf
+setCext-PGWYcapabilities
+setCext-TokenIdentifier
+setCext-Track2Data
+setCext-TokenType
+setCext-IssuerCapabilities
+setAttr-Cert
+setAttr-PGWYcap
+payment gateway capabilities
+setAttr-TokenType
+setAttr-IssCap
+issuer capabilities
+set-rootKeyThumb
+set-addPolicy
+setAttr-Token-EMV
+setAttr-Token-B0Prime
+setAttr-IssCap-CVM
+setAttr-IssCap-T2
+setAttr-IssCap-Sig
+setAttr-GenCryptgrm
+generate cryptogram
+setAttr-T2Enc
+encrypted track 2
+setAttr-T2cleartxt
+cleartext track 2
+setAttr-TokICCsig
+ICC or token signature
+setAttr-SecDevSig
+secure device signature
+set-brand-IATA-ATA
+set-brand-Diners
+set-brand-AmericanExpress
+set-brand-JCB
+set-brand-Visa
+set-brand-MasterCard
+set-brand-Novus
+DES-CDMF
+des-cdmf
+rsaOAEPEncryptionSET
+msSmartcardLogin
+Microsoft Smartcardlogin
+msUPN
+Microsoft Universal Principal Name
+AES-128-CFB1
+aes-128-cfb1
+AES-192-CFB1
+aes-192-cfb1
+AES-256-CFB1
+aes-256-cfb1
+AES-128-CFB8
+aes-128-cfb8
+AES-192-CFB8
+aes-192-cfb8
+AES-256-CFB8
+aes-256-cfb8
+DES-CFB1
+des-cfb1
+DES-CFB8
+des-cfb8
+DES-EDE3-CFB1
+des-ede3-cfb1
+DES-EDE3-CFB8
+des-ede3-cfb8
+streetAddress
+postalCode
+id-ppl
+proxyCertInfo
+Proxy Certificate Information
+id-ppl-anyLanguage
+Any language
+id-ppl-inheritAll
+Inherit all
+id-ppl-independent
+Independent
+obj_dat.c
+%d.%lu
+.%lu
+obj_lib.c
+hmac.c
+j <= sizeof ctx->key
+len <= sizeof ctx->key
+Big Number part of OpenSSL 0.9.7g 11 Apr 2005
+bn_lib.c
+bn(%d,%d)
+RSA part of OpenSSL 0.9.7g 11 Apr 2005
+rsa_lib.c
+rsa_sign.c
+signature has problems, re-make with post SSLeay045
+version
+dmp1
+dmq1
+iqmp
+hRSA
+length
+POpenSSL DH Method
+dh_key.c
+Diffie-Hellman part of OpenSSL 0.9.7g 11 Apr 2005
+dh_lib.c
+eng_init.c
+buffer.c
+bio_lib.c
+memory buffer
+bss_mem.c
+FILE pointer
+bss_file.c
+fopen('
+socket
+buffer
+bf_buff.c
+0123456789ABCDEF
+0123456789abcdef
+b_print.c
+doapr()
+<NULL>
+Stack part of OpenSSL 0.9.7g 11 Apr 2005
+stack.c
+lhash part of OpenSSL 0.9.7g 11 Apr 2005
+lhash.c
+unknown library
+system library
+bignum routines
+rsa routines
+Diffie-Hellman routines
+digital envelope routines
+memory buffer routines
+object identifier routines
+PEM routines
+dsa routines
+x509 certificate routines
+asn1 encoding routines
+configuration file routines
+common libcrypto routines
+elliptic curve routines
+SSL routines
+BIO routines
+PKCS7 routines
+X509 V3 routines
+PKCS12 routines
+random number generator
+DSO support routines
+engine routines
+OCSP routines
+FIPS routines
+fopen
+connect
+getservbyname
+socket
+ioctlsocket
+bind
+listen
+accept
+opendir
+fread
+getaddrinfo
+system lib
+BN lib
+RSA lib
+DH lib
+EVP lib
+BUF lib
+OBJ lib
+PEM lib
+DSA lib
+X509 lib
+ASN1 lib
+CONF lib
+CRYPTO lib
+EC lib
+SSL lib
+BIO lib
+PKCS7 lib
+X509V3 lib
+PKCS12 lib
+RAND lib
+DSO lib
+ENGINE lib
+OCSP lib
+nested asn1 error
+bad asn1 object header
+bad get asn1 object call
+expecting an asn1 sequence
+asn1 length mismatch
+missing asn1 eos
+fatal
+malloc failure
+called a function you should not call
+passed a null parameter
+internal error
+err.c
+unknown
+error:%08lX:%s:%s:%s
+reason(%lu)
+func(%lu)
+lib(%lu)
+int_err_get (err.c)
+int_thread_get (err.c)
+digest.c
+ctx->digest->md_size <= EVP_MAX_MD_SIZE
+EVP part of OpenSSL 0.9.7g 11 Apr 2005
+evp_enc.c
+ctx->cipher->block_size == 1 || ctx->cipher->block_size == 8 || ctx->cipher->block_size == 16
+EVP_CIPHER_CTX_iv_length(ctx) <= sizeof ctx->iv
+bl <= sizeof ctx->buf
+inl > 0
+b <= sizeof ctx->final
+b <= sizeof ctx->buf
+e_aes.c
+e_rc2.c
+l <= sizeof iv
+p_sign.c
+p_verify.c
+p_lib.c
+base64 encoding
+bio_b64.c
+ctx->buf_off+i < sizeof ctx->buf
+evp_lib.c
+j <= sizeof c->iv
+l <= sizeof c->iv
+evp_pbe.c
+TYPE=
+NULL
+a_object.c
+NULL
+a_dup.c
+algor
+digest
+X509_SIG
+8BIGNUM
+`LONG
+ZLONG
+x_long.c
+object
+value
+lX509_NAME_ENTRY
+,RDNS
+<X509_NAME_ENTRIES
+tName
+X509_NAME_INTERNAL
+tX509_NAME
+x_name.c
+version
+serialNumber
+signature
+issuer
+validity
+subject
+issuerUID
+subjectUID
+extensions
+X509_CINF
+cert_info
+sig_alg
+X509
+trust
+reject
+alias
+keyid
+other
+X509_CERT_AUX
+d2i_pr.c
+tasn_new.c
+tasn_enc.c
+tasn_dec.c
+Field=
+, Type=
+Type=
+tasn_utl.c
+ASN1_INTEGER
+,ASN1_ENUMERATED
+XASN1_BIT_STRING
+ASN1_OCTET_STRING
+ASN1_NULL
+ASN1_OBJECT
+ASN1_UTF8STRING
+0ASN1_PRINTABLESTRING
+\ASN1_T61STRING
+ASN1_IA5STRING
+ASN1_GENERALSTRING
+ASN1_UTCTIME
+ASN1_GENERALIZEDTIME
+DASN1_VISIBLESTRING
+xASN1_UNIVERSALSTRING
+ASN1_BMPSTRING
+ASN1_ANY
+ASN1_SEQUENCE
+0ASN1_PRINTABLE
+\DISPLAYTEXT
+DIRECTORYSTRING
+ASN1_BOOLEAN
+ASN1_TBOOLEAN
+ASN1_FBOOLEAN
+4object
+critical
+value
+X509_EXTENSION
+ASN.1 part of OpenSSL 0.9.7g 11 Apr 2005
+asn1_lib.c
+address=
+ offset=
+evp_asn1.c
+CERTIFICATE REQUEST
+NEW CERTIFICATE REQUEST
+X509 CRL
+PKCS7
+CERTIFICATE
+RSA PRIVATE KEY
+RSA PUBLIC KEY
+PUBLIC KEY
+DSA PRIVATE KEY
+DSA PARAMETERS
+DH PARAMETERS
+CERTIFICATE
+pem_oth.c
+ANY PRIVATE KEY
+RSA PRIVATE KEY
+DSA PRIVATE KEY
+PRIVATE KEY
+ENCRYPTED PRIVATE KEY
+pem_pkey.c
+x509_cmp.c
+NO X509_NAME
+x509_obj.c
+X.509 part of OpenSSL 0.9.7g 11 Apr 2005
+x509_vfy.c
+OPENSSL_ALLOW_PROXY_CERTS
+x509_lu.c
+compatible
+SSL Client
+SSL Server
+S/MIME email
+Object Signer
+OCSP responder
+OCSP request
+x509_trs.c
+Load file into cache
+by_file.c
+Load certs from files in a directory
+by_dir.c
+%s%c%08lx.%s%d
+v3_lib.c
+<unsupported>
+othername
+email
+X400Name
+DirName
+EdiPartyName
+<invalid>
+IP Address
+%d.%d.%d.%d
+Registered ID
+othername:<unsupported>
+email:%s
+DNS:%s
+X400Name:<unsupported>
+DirName: 
+EdiPartyName:<unsupported>
+URI:%s
+IP Address:<invalid>
+IP Address:%d.%d.%d.%d
+issuer
+copy
+v3_alt.c
+move
+name=
+value=
+hash
+v3_skey.c
+v3_akey.c
+keyid
+issuer
+always
+name=
+serial
+notBefore
+notAfter
+\PKEY_USAGE_PERIOD
+Not Before: 
+Not After: 
+Unspecified
+unspecified
+Key Compromise
+keyCompromise
+CA Compromise
+CACompromise
+Affiliation Changed
+affiliationChanged
+Superseded
+superseded
+Cessation Of Operation
+cessationOfOperation
+Certificate Hold
+certificateHold
+Remove From CRL
+removeFromCRL
+zone
+user
+SXNETID
+hversion
+pSXNET
+v3_sxnet.c
+%*sVersion: %d (0x%X)
+%*sZone: %s, User: 
+CERTIFICATEPOLICIES
+$policyid
+qualifiers
+POLICYINFO
+d.other
+d.cpsuri
+d.usernotice
+pqualid
+POLICYQUALINFO
+\noticeref
+exptext
+USERNOTICE
+organization
+noticenos
+<NOTICEREF
+Xv3_cpols.c
+,value:
+section:
+,name:
+ia5org
+policyIdentifier
+userNotice
+explicitText
+noticeNumbers
+%*sCPS: %s
+%*sUser Notice:
+%*sUnknown Qualifier: 
+%*sPolicy: 
+%*sOrganization: %s
+%*sNumber%s: 
+%*sExplicit Text: %s
+v3_crld.c
+name.fullname
+name.relativename
+<DIST_POINT_NAME
+distpoint
+reasons
+CRLissuer
+"xDIST_POINT
+hCRLDistributionPoints
+tCRL_DIST_POINTS
+<UNSUPPORTED>
+RelativeName
+SSL client
+sslclient
+SSL server
+sslserver
+Netscape SSL server
+nssslserver
+S/MIME signing
+smimesign
+S/MIME encryption
+smimeencrypt
+CRL signing
+crlsign
+Any Purpose
+OCSP helper
+ocsphelper
+v3_purp.c
+method
+location
+"xACCESS_DESCRIPTION
+GeneralNames
+0AUTHORITY_INFO_ACCESS
+pv3_info.c
+value=
+%*scrlUrl: 
+%*scrlNum: 
+%*scrlTime: 
+%*sIssuer: 
+v3_ocsp.c
+keyid
+issuer
+serial
+<AUTHORITY_KEYID
+hpolicyLanguage
+policy
+PROXY_POLICY
+pcPathLengthConstraint
+proxyPolicy
+PROXY_CERT_INFO_EXTENSION
+Llanguage
+pathlen
+policy
+hex:
+file:
+text:
+v3_pci.c
+,value:
+section:
+,name:
+%*sPath Length Constraint: 
+%*sPolicy Language: 
+%*sPolicy Text: %s
+infinite
+d.other
+d.data
+d.sign
+d.enveloped
+d.signed_and_enveloped
+d.digest
+d.encrypted
+type
+PKCS7
+\version
+md_algs
+contents
+cert
+signer_info
+PKCS7_SIGNED
+issuer_and_serial
+digest_alg
+auth_attr
+digest_enc_alg
+enc_digest
+unauth_attr
+PKCS7_SIGNER_INFO
+xissuer
+serial
+<PKCS7_ISSUER_AND_SERIAL
+recipientinfo
+enc_data
+PKCS7_ENVELOPE
+key_enc_algor
+enc_key
+PKCS7_RECIP_INFO
+content_type
+algorithm
+PKCS7_ENC_CONTENT
+PKCS7_SIGN_ENVELOPE
+PKCS7_ENCRYPT
+digest
+PKCS7_DIGEST
+<PKCS7_ATTRIBUTES
+PKCS7_ATTR_SIGN
+PKCS7_ATTR_VERIFY
+comp_lib.c
+signatureAlgorithm
+signature
+certs
+OCSP_SIGNATURE
+phashAlgorithm
+issuerNameHash
+issuerKeyHash
+serialNumber
+<OCSP_CERTID
+,reqCert
+singleRequestExtensions
+OCSP_ONEREQ
+version
+requestorName
+requestList
+requestExtensions
+OCSP_REQINFO
+LtbsRequest
+optionalSignature
+OCSP_REQUEST
+responseType
+response
+OCSP_RESPBYTES
+0responseStatus
+responseBytes
+@OCSP_RESPONSE
+value.byName
+value.byKey
+OCSP_RESPID
+revocationTime
+revocationReason
+hOCSP_REVOKEDINFO
+value.good
+value.revoked
+value.unknown
+OCSP_CERTSTATUS
+ certId
+certStatus
+thisUpdate
+nextUpdate
+singleExtensions
+OCSP_SINGLERESP
+responderId
+producedAt
+responses
+responseExtensions
+OCSP_RESPDATA
+tbsResponseData
+OCSP_BASICRESP
+DcrlUrl
+crlNum
+crlTime
+\OCSP_CRLID
+issuer
+locator
+0OCSP_SERVICELOC
+$MD2 part of OpenSSL 0.9.7g 11 Apr 2005
+md2(int)
+SHA1 part of OpenSSL 0.9.7g 11 Apr 2005
+  ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
+libdes part of OpenSSL 0.9.7g 11 Apr 2005
+DES part of OpenSSL 0.9.7g 11 Apr 2005
+des(%s,%s,%s,%s)
+cisc
+long
+RC2 part of OpenSSL 0.9.7g 11 Apr 2005
+RC4 part of OpenSSL 0.9.7g 11 Apr 2005
+rc4(ptr,int)
+IDEA part of OpenSSL 0.9.7g 11 Apr 2005
+idea(int)
+bn_exp.c
+bn_ctx.c
+bn_mod.c
+bn_rand.c
+bn_blind.c
+bn_gcd.c
+bn_recp.c
+bn_mont.c
+Eric Young's PKCS#1 RSA
+rsa_eay.c
+rsa_pk1.c
+rsa_ssl.c
+rsa_none.c
+rsa_oaep.c
+DSA part of OpenSSL 0.9.7g 11 Apr 2005
+dsa_lib.c
+DSA_SIG
+version
+pub_key
+priv_key
+hDSA
+dsa_asn1.c
+OpenSSL DSA method
+dsa_ossl.c
+eng_lib.c
+eng_list.c
+eng_table.c
+tb_cipher.c
+tb_digest.c
+P00`
+}++V
+=j&&LZ66lA??~
+\44h
+S11b?
+e##F^
+i''N
+t,,X.
+M;;va
+}{))R>
+q//^
+`  @
+gK99r
+U33f
+D<<x
+!H88p
+c!!B0
+G==z
+f""D~**T
+V22dN::t
+l$$H
+Y77n
+o%%Jr..\$
+B>>|
+_55j
+x((Pz
+)w--Z
+T00`P
+++V}
+&&Lj66lZ??~A
+O44h\
+s11bS
+R##Fe
+&''Ni
+,,Xt
+6-nn
+;;vM
+))R{
+>//^q
+,  @`
+99rKJJ
+33fU
+<<xD
+88pH
+u!!Bc
+==zGdd
+2+ss
+""Df**T~
+;22dV::tN
+$$Hl\\
+C77nYmm
+%%Jo..\r
+>!KK
+>>|B
+55j_WW
+"3ii
+((Px
+--Zw
+0`P0
+g+V}+
+&Lj&6lZ6?~A?
+4h\4
+1bS1
+#Fe#
+'Ni'
+,Xt,
+R;vM;
+)R{)
+/^q/
+ @` 
+9rK9J
+M3fU3
+P<xD<
+8pH8
+!Bc!
+~=zG=d
+"Df"*T~*
+2dV2:tN:
+$Hl$\
+7nY7m
+x%Jo%.\r.
+p>|B>
+a5j_5W
+U(Px(
+-Zw-
+`P00
+ggV}++
+Lj&&lZ66~A??
+h\44Q
+bS11*?
+Fe##
+Ni''
+Xt,,4.
+RRvM;;
+R{))
+^q//
+@`  
+rK99
+MMfU33
+PPxD<<%
+pH88
+Bc!! 0
+&5
+DD.9
+~~zG==
+]]2+
+Df""T~**;
+dV22tN::
+Hl$$
+nY77
+xxJo%%\r..8$
+tt>!
+pp|B>>q
+aaj_55
+UUPx((
+Zw--
+cccc||||wwww{{{{
+kkkkoooo
+0000
+gggg++++
+vvvv
+}}}}
+YYYYGGGG
+rrrr
+&&&&6666????
+4444
+qqqq
+1111
+####
+''''
+uuuu
+,,,,
+nnnnZZZZ
+RRRR;;;;
+))))
+////
+SSSS
+    
+[[[[jjjj
+9999JJJJLLLLXXXX
+CCCCMMMM3333
+EEEE
+PPPP<<<<
+QQQQ
+@@@@
+8888
+!!!!
+
+____
+DDDD
+~~~~====dddd]]]]
+ssss````
+OOOO
+""""****
+FFFF
+^^^^
+2222::::
+IIII
+$$$$\\\\
+bbbb
+yyyy
+7777mmmm
+NNNN
+llllVVVV
+eeeezzzz
+xxxx%%%%....
+tttt
+KKKK
+pppp>>>>
+ffffHHHH
+aaaa5555WWWW
+iiii
+UUUU((((
+BBBBhhhhAAAA
+----
+TTTT
+QSeA~
+!tX)i
+XhHp
+NrZl
+='9-6d
+:.6$
+aiKwZ
+;fD4~
+[v)C
+cB@"
+_jbF~T
+11#?*0
+,4$8_@
+I<(A
+t\lHBW
+QPeA~S
+0 Umv
+-!tX
+SbEwd
+hHpX
+Uf*(
++2Hp
+rZlN
+9-6'
+\h!T[
+.6$:g
+KwZi
+[4)C
+F~Tb
+#?*1
+_[o=
+>4$8,@
+I<(
+p\lHtW
+A~Se
+`3SbE
++HpXhE
+pZlNr
+-6'9
+T6$:.
+ wZiK
+*"<C
+[4~C
+~TbF
+?*1#
+fNt7
+$8,4
+%<(
+lHt\
+BWQP
+~SeA
+!tI)i
+k>X'
+`3QbE
+pXhH
+C@gw
+lNrZ
+6'9-
+T[$:.6
+ZiKw
+;f[4~
+_TbF~
+*1#?
+h8,4$
+2Ht\l
+RRRR
+jjjj
+00006666
+8888
+@@@@
+||||
+9999
+////
+4444
+CCCCDDDD
+TTTT{{{{
+2222
+####====
+LLLL
+BBBB
+NNNN
+....
+ffff((((
+$$$$
+vvvv[[[[
+IIIImmmm
+%%%%rrrr
+dddd
+hhhh
+\\\\
+]]]]eeee
+llllppppHHHHPPPP
+^^^^
+FFFFWWWW
+XXXX
+EEEE
+,,,,
+????
+kkkk::::
+AAAAOOOOgggg
+ssss
+tttt""""
+5555
+7777
+uuuu
+nnnnGGGG
+qqqq
+))))
+oooo
+bbbb
+VVVV>>>>KKKK
+yyyy    
+xxxx
+ZZZZ
+3333
+1111
+YYYY''''
+____````QQQQ
+JJJJ
+----
+zzzz
+;;;;MMMM
+****
+<<<<
+SSSS
+aaaa
+++++
+~~~~
+wwww
+&&&&
+iiii
+ccccUUUU!!!!}}}}
+6RAND part of OpenSSL 0.9.7g 11 Apr 2005
+md_rand.c
+....................
+You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
+/dev/urandom
+/dev/random
+/dev/srandom
+/var/run/egd-pool
+/dev/egd-pool
+/etc/egd-pool
+/etc/entropy
+ctx->length <= sizeof ctx->enc_data
+encode.c
+n < sizeof ctx->enc_data
+evp_pkey.c
+TYPE=
+NULL
+a_bitstr.c
+a_utctm.c
+%02d%02d%02d%02d%02d%02dZ
+a_gentm.c
+%04d%02d%02d%02d%02d%02dZ
+ASN1_TIME
+a_time.c
+a_int.c
+a_set.c
+a_d2i_fp.c
+a_i2d_fp.c
+a_enum.c
+a_sign.c
+a_digest.c
+a_verify.c
+\W%08lX
+\U%04lX
+\%02X
+0123456789ABCDEF
+a_strex.c
+algorithm
+parameter
+X509_ALGOR
+notBefore
+notAfter
+X509_VAL
+algor
+public_key
+X509_PUBKEY
+x_pubkey.c
+version
+subject
+pubkey
+attributes
+X509_REQ_INFO
+req_info
+sig_alg
+signature
+X509_REQ
+@value.set
+value.single
+X509_ATTRIBUTE
+object
+serialNumber
+revocationDate
+extensions
+X509_REVOKED
+version
+sig_alg
+issuer
+lastUpdate
+nextUpdate
+revoked
+X509_CRL_INFO
+signature
+X509_CRL
+$x_crl.c
+x_info.c
+pubkey
+challenge
+NETSCAPE_SPKAC
+spkac
+sig_algor
+signature
+NETSCAPE_SPKI
+type
+certs
+NETSCAPE_CERT_SEQUENCE
+d2i_pu.c
+i2d_pu.c
+i2d_pr.c
+X509v3 extensions
+        Subject Public Key Info:
+%12sPublic Key Algorithm: 
+%12sUnknown Public Key:
+%12sDSA Public Key:
+%12sRSA Public Key: (%d bit)
+%12sUnable to load Public Key
+        Subject:%c
+        Validity
+            Not Before: 
+            Not After : 
+        Issuer:%c
+%8sSignature Algorithm: 
+        Serial Number:
+ %s%lu (%s0x%lx)
+ (Negative)
+%12s%s
+%02x%c
+%8sVersion: %lu (0x%lx)
+Certificate:
+    Data:
+        Subject OCSP hash: 
+t_x509.c
+%02X
+        Public key OCSP hash: 
+    Signature Algorithm: 
+        
+%02x%s
+ GMT
+%s %2d %02d:%02d:%02d %d%s
+Bad time value
+%*sTrusted Uses:
+%*sRejected Uses:
+%*sAlias: %s
+%*sKey Id: 
+%s%02X
+%*sNo Rejected Uses.
+%*sNo Trusted Uses.
+t_pkey.c
+Private-Key: (%d bit)
+modulus:
+Exponent:
+publicExponent:
+privateExponent:
+prime1:
+prime2:
+exponent1:
+exponent2:
+coefficient:
+Modulus (%d bit):
+priv:
+pub: 
+P:   
+Q:   
+G:   
+%s %s%lu (%s0x%lx)
+ (Negative)
+%s%s
+%02x%s
+Diffie-Hellman-Parameters: (%d bit)
+prime:
+generator:
+    recommended-private-length: %d bits
+DSA-Parameters: (%d bit)
+0123456789ABCDEF
+f_int.c
+0123456789ABCDEF
+f_string.c
+x_pkey.c
+%-18s
+%2d %-15s
+cons: 
+prim: 
+cont [ %d ]
+appl [ %d ]
+priv [ %d ] 
+%5ld:
+d=%-2d hl=%ld l=%4ld 
+length is greater than %ld
+%02X
+BAD ENUMERATED
+BAD INTEGER
+Bad boolean
+:BAD OBJECT
+d=%-2d hl=%ld l=inf  
+Error in encoding
+BOOLEAN
+INTEGER
+BIT STRING
+OCTET STRING
+NULL
+OBJECT
+OBJECT DESCRIPTOR
+EXTERNAL
+REAL
+ENUMERATED
+<ASN1 11>
+UTF8STRING
+<ASN1 13>
+<ASN1 14>
+<ASN1 15>
+SEQUENCE
+NUMERICSTRING
+PRINTABLESTRING
+T61STRING
+VIDEOTEXSTRING
+IA5STRING
+UTCTIME
+GENERALIZEDTIME
+GRAPHICSTRING
+VISIBLESTRING
+GENERALSTRING
+UNIVERSALSTRING
+<ASN1 29>
+BMPSTRING
+(unknown)
+a_bytes.c
+asn_pack.c
+version
+pkeyalg
+pkey
+attributes
+PKCS8_PRIV_KEY_INFO
+CERTIFICATE
+pem_info.c
+X509 CERTIFICATE
+TRUSTED CERTIFICATE
+X509 CRL
+RSA PRIVATE KEY
+DSA PRIVATE KEY
+strlen(objstr)+23+2*enc->iv_len+13 <= sizeof buf
+PEM part of OpenSSL 0.9.7g 11 Apr 2005
+0123456789ABCDEF
+ENCRYPTED PRIVATE KEY
+PRIVATE KEY
+RSA PRIVATE KEY
+DSA PRIVATE KEY
+X509 CERTIFICATE
+NEW CERTIFICATE REQUEST
+CERTIFICATE
+PKCS7
+TRUSTED CERTIFICATE
+CERTIFICATE REQUEST
+ANY PRIVATE KEY
+Expecting: 
+enc->iv_len <= sizeof iv
+strlen(objstr)+23+2*enc->iv_len+13 <= sizeof buf
+Proc-Type: 4,
+ENCRYPTED
+DEK-Info: 
+Enter PEM pass phrase:
+phrase is too short, needs to be at least %d chars
+pem_lib.c
+Proc-Type: 
+-----BEGIN 
+-----
+-----END 
+MIC-CLEAR
+BAD-TYPE
+MIC-ONLY
+TRUSTED CERTIFICATE
+/usr/local/ssl
+/usr/local/ssl/certs
+/usr/local/ssl/cert.pem
+SSL_CERT_DIR
+SSL_CERT_FILE
+/usr/local/ssl/private
+x509name.c
+name=
+x509_v3.c
+pathlen
+<BASIC_CONSTRAINTS
+v3_bcons.c
+,value:
+section:
+,name:
+SSL Client
+client
+SSL Server
+server
+S/MIME
+email
+Object Signing
+objsign
+Unused
+reserved
+SSL CA
+sslCA
+S/MIME CA
+emailCA
+Object Signing CA
+objCA
+Digital Signature
+digitalSignature
+Non Repudiation
+nonRepudiation
+Key Encipherment
+keyEncipherment
+Data Encipherment
+dataEncipherment
+Key Agreement
+keyAgreement
+Certificate Sign
+keyCertSign
+CRL Sign
+cRLSign
+Encipher Only
+encipherOnly
+Decipher Only
+decipherOnly
+v3_bitst.c
+,value:
+section:
+,name:
+v3_conf.c
+name=
+,section=
+value=
+, value=
+critical,
+DER:
+EXTENDED_KEY_USAGE
+v3_extku.c
+,value:
+section:
+,name:
+v3_ia5.c
+%s:%s
+<EMPTY>
+%*s%s
+%*s%s:
+critical
+: %s
+%*s<Parse Error>
+%*s<Not Supported>
+TRUE
+v3_utl.c
+FALSE
+true
+false
+,value:
+section:
+,name:
+type_id
+value
+OTHERNAME
+nameAssigner
+partyName
+EDIPARTYNAME
+d.otherName
+d.rfc822Name
+d.dNSName
+d.x400Address
+d.directoryName
+d.ediPartyName
+d.uniformResourceIdentifier
+d.iPAddress
+d.registeredID
+GENERAL_NAME
+"hGeneralNames
+"xGENERAL_NAMES
+CONF part of OpenSSL 0.9.7g 11 Apr 2005
+conf_lib.c
+group=
+ name=
+conf_api.c
+default
+CONF_def part of OpenSSL 0.9.7g 11 Apr 2005
+OpenSSL default
+WIN32
+conf_def.c
+default
+line 
+[%s] %s=%s
+[[%s]]
+p12_decr.c
+bn_add.c
+bn_div.c
+0123456789ABCDEF
+bn_print.c
+%09lu
+bn_exp2.c
+%04x - 
+%s%04x - <SPACES/NULS>
+%02x%c
+%lu:%s:%s:%d:%s
+evp_key.c
+nkey <= EVP_MAX_KEY_LENGTH
+niv <= EVP_MAX_IV_LENGTH
+a_mbstr.c
+minsize=
+maxsize=
+'()+,-./:=?
+a_bool.c
+MASK:
+nombstr
+pkix
+utf8only
+default
+a_strnid.c
+x509_req.c
+x509_att.c
+name=
+ui_lib.c
+Enter 
+ for 
+ characters
+You must type in 
+ to 
+OpenSSL default user interface
+Verifying - %s
+Verify failure
+/dev/tty
+ui_openssl.c
+Not enough memory in %s %d.
+Msg.c
+Init mutex for msg mutex failed!
+Init semphore for msg consumer failed!
+Init semphore for msg producer failed!
+Not enough memory in %s %d.
+Help/C_List.c
+***********testsigpipe*************
+manage pid:%d
+__pthread_initial_thread_bos:%x
+********************************
+cntpair is %d
+*******************l is %x
+Can not open File :%s
+Read Header Failed
+Magic %x,Versoin %d
+Invalid Magic
+Please use 'genbin' to create image file
+linux.bin
+romfs.img
+Malloc %d memory failed
+%x :blockSize <=0
+Buffer length is less than image_footer->length when read_func==NULL
+Block Not Alignment
+Write Firmwate Corrupt
+image_footer->image_checksum:%x,sum:%x
+image_footer->checksum:%x,sum:%x
+Buffer length(%d) is less than image_footer->length(%d) when write_func==NULL
+Can not find image %d
+?function?
+%s: %d: %s: Assertion `%s' failed.
+syslog
+[truncated] <%d>%.20s 
+[%d]
+/dev/console
+<BUFFER OVERRUN ATTEMPT>
+/dev/log
+""##$$$%%&&
+????
+%m/%d/%y
+%Y-%m-%d
+%H:%M
+%H:%M:%S
+()*+TZ
+,M4.1.0,M10.5.0
+/etc/TZ
+$VVZ
+ $(,048<CJR\eluy}
+6<BFKPWair{~
+ASCII
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+%a %b %e %H:%M:%S %Y
+%m/%d/%y
+%H:%M:%S
+%I:%M:%S %p
+^[yY]
+^[nN]
+%s%s%m
+(nil)
+(null)
+hlLq
+%n[csoupxXid
+Unknown error 
+Success
+Operation not permitted
+No such file or directory
+No such process
+Interrupted system call
+Input/output error
+No such device or address
+Argument list too long
+Exec format error
+Bad file descriptor
+No child processes
+Resource temporarily unavailable
+Cannot allocate memory
+Permission denied
+Bad address
+Block device required
+Device or resource busy
+File exists
+Invalid cross-device link
+No such device
+Not a directory
+Is a directory
+Invalid argument
+Too many open files in system
+Too many open files
+Inappropriate ioctl for device
+Text file busy
+File too large
+No space left on device
+Illegal seek
+Read-only file system
+Too many links
+Broken pipe
+Numerical argument out of domain
+Numerical result out of range
+Resource deadlock avoided
+File name too long
+No locks available
+Function not implemented
+Directory not empty
+Too many levels of symbolic links
+No message of desired type
+Identifier removed
+Channel number out of range
+Level 2 not synchronized
+Level 3 halted
+Level 3 reset
+Link number out of range
+Protocol driver not attached
+No CSI structure available
+Level 2 halted
+Invalid exchange
+Invalid request descriptor
+Exchange full
+No anode
+Invalid request code
+Invalid slot
+Bad font file format
+Device not a stream
+No data available
+Timer expired
+Out of streams resources
+Machine is not on the network
+Package not installed
+Object is remote
+Link has been severed
+Advertise error
+Srmount error
+Communication error on send
+Protocol error
+Multihop attempted
+RFS specific error
+Bad message
+Value too large for defined data type
+Name not unique on network
+File descriptor in bad state
+Remote address changed
+Can not access a needed shared library
+Accessing a corrupted shared library
+.lib section in a.out corrupted
+Attempting to link in too many shared libraries
+Cannot exec a shared library directly
+Invalid or incomplete multibyte or wide character
+Interrupted system call should be restarted
+Streams pipe error
+Too many users
+Socket operation on non-socket
+Destination address required
+Message too long
+Protocol wrong type for socket
+Protocol not available
+Protocol not supported
+Socket type not supported
+Operation not supported
+Protocol family not supported
+Address family not supported by protocol
+Address already in use
+Cannot assign requested address
+Network is down
+Network is unreachable
+Network dropped connection on reset
+Software caused connection abort
+Connection reset by peer
+No buffer space available
+Transport endpoint is already connected
+Transport endpoint is not connected
+Cannot send after transport endpoint shutdown
+Too many references: cannot splice
+Connection timed out
+Connection refused
+Host is down
+No route to host
+Operation already in progress
+Operation now in progress
+Stale NFS file handle
+Structure needs cleaning
+Not a XENIX named type file
+No XENIX semaphores available
+Is a named type file
+Remote I/O error
+Disk quota exceeded
+No medium found
+Wrong medium type
+/bin/sh
+SunMonTueWedThuFriSatJanFebMarAprMayJunJulAugSepOctNovDec??? ??? 0 0
+ ????
+ +0-#'I
+npxXoudifFeEgGaACScs
+hlLjztqZ
+/etc/resolv.conf
+nameserver
+domain
+search
+/etc/config/resolv.conf
+/swap/resolv.conf
+/etc/hosts
+/etc/config/hosts
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ Se
+ Se
+ Se
+_\D+@
+_\D+
+_\D+
+ Se
+$3br
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+T<<NULL>>
+<<NULL>>
+666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Ag*g*
+0123456789ABCDEF
+!"\kN
+5Mj*
+6[%U
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+?456789:;<=
+ !"#$%&'()*+,-./0123
+0123456789ABCDEF
+CAk[S
